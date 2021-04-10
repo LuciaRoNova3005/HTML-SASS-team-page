@@ -1,5 +1,12 @@
+.title {
+  text-align: center;
+  font-size: 24px;
+  color:#099d8d;
+  font-family: Rubik-Medium;
+}
 .lema {
   box-sizing: border-box;
   margin: 15px;
   justify-content: center;
 }
+
