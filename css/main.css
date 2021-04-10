@@ -10,3 +10,32 @@
   justify-content: center;
 }
 
+/*estilo de los logos de redes*/
+i {
+  font-size: 16px;
+  color: #099d8d;
+  font-family: Rubik ;
+}
+.rrss {
+text-align: center;
+color: #099d8d;
+}
+
+/*Quienes somos*/
+
+.name {
+  font-family: Open sans;
+  font-size: 20px ;
+  color: black;
+  text-align: center;
+}
+.bio {
+  font-family: Opensans;
+  font-size: 16px;
+  color: #54585a;
+  text-align: center;
+}
+
+body {
+  font-family: ;
+}
