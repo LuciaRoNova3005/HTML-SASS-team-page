@@ -5,14 +5,33 @@
   background-size: cover;
   width: 320px;
   height: 421px;
-  opacity: 95%;
-  background-color: #099d8d;
   text-transform: uppercase;
-  font-family: Rubik;
+  text-align: center;
+  font-family: Rubik-Medium;
+  color: #fff;
   line-height: 30px;
   font-size: 16px;
+  padding: 22px;
 }
-
+.headcontainer {
+  width: 320px;
+  height: 60px;
+  background-color: #099d8d;
+  opacity: 95%;
+}
+.navegador {
+  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Rubik-Medium;
+  text-transform: uppercase;
+  color: #fff;
+  margin: auto;
+}
+@font-face {
+  font-family: Rubik-Medium;
+  src: url(fonts/Rubik/static/Rubik-Medium.ttf);
+}
 .title {
   text-align: center;
   font-size: 24px;
