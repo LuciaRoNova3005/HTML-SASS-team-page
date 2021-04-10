@@ -1,0 +1,17 @@
+.cabecera {
+  background-image: url(../images/IsladeJAva.jpg);
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 421px;
+  opacity: 95%;
+  background-color: #099d8d;
+  text-transform: uppercase;
+  font-family: Rubik;
+  line-height: 30px;
+  font-size: 16px;
+}
+.navegador {
+  text-justify: ;
+}
