@@ -81,3 +81,15 @@ color: #099d8d;
   margin: 15px;
   justify-content: center;
 }
+
+/*EQUIPO*/
+
+.team{
+  width: 320px;
+}
+
+.description{
+
+  padding: 30px 15px;
+  background-color: #ffffff;
+}
