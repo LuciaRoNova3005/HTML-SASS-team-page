@@ -44,7 +44,7 @@ i {
   opacity: 95%;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Rubik-Medium";
+  font-family: 'Rubik';
   color: #fff;
   line-height: 30px;
   font-size: 16px;
@@ -71,7 +71,7 @@ i {
   text-transform: uppercase;
   color: #fff;
   padding: 7px 7px 8px 8px;
-  font-family: "Rubik-Medium";
+  font-family: 'Rubik';
 }
 
 /* No sé si esto está bien para traer las fuentes que no son los iconos de FontAwsome*/
@@ -88,7 +88,7 @@ i {
   text-align: center;
   font-size: 24px;
   color: #099d8d;
-  font-family: Rubik-Medium;
+  font-family: 'Rubik';
 }
 .lema {
   box-sizing: border-box;
