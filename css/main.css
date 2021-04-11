@@ -99,7 +99,7 @@ color: #099d8d;
   width: 89px;
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
-  font-family: Rubik;
+  font-family: 'Rubik';
   font-size: 24px;
   font-weight: 500;
   line-height: 1.88;
@@ -112,7 +112,7 @@ color: #099d8d;
   width: 290px;
   height: 384px;
   margin: 15px 0 0;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -131,7 +131,7 @@ color: #099d8d;
 .dafo-title-1{
   /*width: 290px;*/
   height: 45px;
-  font-family: Rubik;
+  font-family: 'Rubik';
   font-size: 22px;
   font-weight: 500;
   line-height: 2.05;
@@ -143,7 +143,7 @@ color: #099d8d;
   /*width: 290px;*/
   height: 192px;
   margin: 45px 0 30px;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -154,7 +154,7 @@ color: #099d8d;
   /*width: 290px;*/
   height: 45px;
   margin: 30px 0 0;
-  font-family: Rubik;
+  font-family: 'Rubik';
   font-size: 22px;
   font-weight: 500;
   line-height: 2.05;
@@ -166,7 +166,7 @@ color: #099d8d;
   /*width: 290px;*/
   height: 192px;
   margin: 75px 0 0;
-  font-family: OpenSans;
+  font-family: 'Open Sans';
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
