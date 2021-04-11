@@ -93,3 +93,104 @@ i {
   margin: 15px;
   justify-content: center;
 }
+
+/*-----------------EQUIPO------------------------*/
+
+.team{
+  width: 320px;
+}
+
+.description{
+
+  /*height: 504px;*/
+  padding: 30px 15px;
+  background-color: #ffffff;
+}
+
+.title-team{
+  width: 89px;
+  height: 45px;
+  margin: 0 99.5px 15px 101.5px;
+  font-family: 'Rubik';
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.88;
+  text-align: center;
+  color: #14d9c4;
+
+}
+
+.p1{
+  width: 290px;
+  height: 384px;
+  margin: 15px 0 0;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #54585a;
+}
+
+.dafo{
+  height: 579px;
+  width: 290px;
+  margin: 504px 0 0;
+  padding: 30px 15px 45px;
+  /*opacity: 0.2;*/
+  background-color: #b8b8b9;
+}
+
+.dafo-title-1{
+  /*width: 290px;*/
+  height: 45px;
+  font-family: 'Rubik';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2.05;
+  text-align: center;
+  color: #099d8d;
+}
+
+.p2{
+  /*width: 290px;*/
+  height: 192px;
+  margin: 45px 0 30px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #54585a;
+}
+
+.dafo-title-2{
+  /*width: 290px;*/
+  height: 45px;
+  margin: 30px 0 0;
+  font-family: 'Rubik';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 2.05;
+  text-align: center;
+  color: #099d8d;; 
+}
+
+.p3{
+  /*width: 290px;*/
+  height: 192px;
+  margin: 75px 0 0;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #54585a;
+}
+
+/*.piquito{
+  width: 30px;
+  height: 30px;
+  margin: 488.2px 144.8px 564.8px 145.2px;
+  transform: rotate(45deg);
+  background-color: #ffffff;
+}*/
+
+/*-------------------------------------------------*/
