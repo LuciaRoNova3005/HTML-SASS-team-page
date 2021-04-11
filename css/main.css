@@ -44,9 +44,9 @@ i {
   opacity: 95%;
   text-transform: uppercase;
   text-align: center;
-  font-family: Rubik-Medium;
+  font-family: "Rubik-Medium";
   color: #fff;
-  /*line-height: 30px;*/
+  line-height: 30px;
   font-size: 16px;
   padding: 22px 15px;
   display: flex;
@@ -65,22 +65,24 @@ i {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  font-family: Rubik-Medium;
+}
+.navlinks {
   font-size: 15px;
   text-transform: uppercase;
   color: #fff;
-  padding: 15px 17px;
+  padding: 7px 7px 8px 8px;
+  font-family: "Rubik-Medium";
 }
 
 /* No sé si esto está bien para traer las fuentes que no son los iconos de FontAwsome*/
-@font-face {
+/*@font-face {
   font-family: Rubik-Medium;
   src: url(fonts/Rubik/static/Rubik-Medium.ttf);
 }
 @font-face {
   font-family: OpenSans-Semi-Bold;
   src: url(fonts/Open_Sans/OpenSans-SemiBold.ttf);
-}
+}*/
 
 .title {
   text-align: center;
@@ -96,42 +98,40 @@ i {
 
 /*-----------------EQUIPO------------------------*/
 
-.team{
+.team {
   width: 320px;
 }
 
-.description{
-
+.description {
   /*height: 504px;*/
   padding: 30px 15px;
   background-color: #ffffff;
 }
 
-.title-team{
+.title-team {
   width: 89px;
   height: 45px;
   margin: 0 99.5px 15px 101.5px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 24px;
   font-weight: 500;
   line-height: 1.88;
   text-align: center;
   color: #14d9c4;
-
 }
 
-.p1{
+.p1 {
   width: 290px;
   height: 384px;
   margin: 15px 0 0;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   color: #54585a;
 }
 
-.dafo{
+.dafo {
   height: 579px;
   width: 290px;
   margin: 504px 0 0;
@@ -140,10 +140,10 @@ i {
   background-color: #b8b8b9;
 }
 
-.dafo-title-1{
+.dafo-title-1 {
   /*width: 290px;*/
   height: 45px;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 22px;
   font-weight: 500;
   line-height: 2.05;
@@ -151,34 +151,34 @@ i {
   color: #099d8d;
 }
 
-.p2{
+.p2 {
   /*width: 290px;*/
   height: 192px;
   margin: 45px 0 30px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   color: #54585a;
 }
 
-.dafo-title-2{
+.dafo-title-2 {
   /*width: 290px;*/
   height: 45px;
   margin: 30px 0 0;
-  font-family: 'Rubik';
+  font-family: "Rubik";
   font-size: 22px;
   font-weight: 500;
   line-height: 2.05;
   text-align: center;
-  color: #099d8d;; 
+  color: #099d8d;
 }
 
-.p3{
+.p3 {
   /*width: 290px;*/
   height: 192px;
   margin: 75px 0 0;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
