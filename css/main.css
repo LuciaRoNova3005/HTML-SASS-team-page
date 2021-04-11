@@ -36,45 +36,59 @@ i {
   text-align: center;
 }
 
+/* estilo header*/
 .cabecera {
-  background-image: url(../images/IsladeJAva.jpg);
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 320px;
-  height: 421px;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: Rubik-Medium;
-  color: #fff;
-  line-height: 30px;
-  font-size: 16px;
-  padding: 22px;
-}
-.headcontainer {
   width: 320px;
   height: 60px;
   background-color: #099d8d;
   opacity: 95%;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Rubik';
+  color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 22px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.headcontainer {
+  width: 320px;
+  height: 105px;
 }
 .navegador {
-  text-align: right;
+  width: 320px;
+  height: 45px;
+  background-color: #14d9c4;
+  opacity: 90%;
   display: flex;
-  flex-wrap: wrap;
-  font-family: Rubik-Medium;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.navlinks {
+  font-size: 15px;
   text-transform: uppercase;
   color: #fff;
-  margin: auto;
+  padding: 7px 7px 8px 8px;
+  font-family: 'Rubik';
 }
-@font-face {
+
+/* No sé si esto está bien para traer las fuentes que no son los iconos de FontAwsome*/
+/*@font-face {
   font-family: Rubik-Medium;
   src: url(fonts/Rubik/static/Rubik-Medium.ttf);
 }
+@font-face {
+  font-family: OpenSans-Semi-Bold;
+  src: url(fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}*/
+
 .title {
   text-align: center;
   font-size: 24px;
   color: #099d8d;
-  font-family: Rubik-Medium;
+  font-family: 'Rubik';
 }
 .lema {
   box-sizing: border-box;
@@ -82,6 +96,7 @@ i {
   justify-content: center;
 }
 
+<<<<<<< HEAD
 .copy {
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -104,3 +119,97 @@ i {
   height: 45px;
   margin: 30px 28.1px 0 28px;
 }
+=======
+/*-----------EQUIPO-------------------*/
+
+.team{
+  width: 320px;
+}
+
+.description{
+
+  height: 504px;
+  background-color: #ffffff;
+  /*border: solid 1px black;*/
+}
+
+.title-team{
+  width: 89px;
+  height: 45px;
+  margin: 30px 114.5px 15px 116.5px;
+  font-family: 'Rubik';
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #14d9c4;
+
+}
+
+.p1{
+  width: 290px;
+  height: 384px;
+  margin: 0px 15px 30px 15px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+.dafo{
+  height: 579px;
+  width: 320px;
+  padding: 30px 15px;
+  /*opacity: 0.2;*/
+  background-color: #b8b8b9;
+}
+
+.dafo-title-1{
+  width: 290px;
+  height: 45px;
+  font-family: 'Rubik';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;
+}
+
+.p2{
+  width: 290px;
+  height: 192px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+.dafo-title-2{
+  width: 290px;
+  height: 45px;
+  font-family: 'Rubik';
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;; 
+}
+
+.p3{
+  width: 290px;
+  height: 192px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+/*.piquito{
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: #ffffff;
+}*/
+>>>>>>> 87463026276d8e15f2eeabb3338a8b5c17a20f2a
