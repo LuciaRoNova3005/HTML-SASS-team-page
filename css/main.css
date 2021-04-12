@@ -16,9 +16,53 @@ i {
 }
 
 /*Quienes somos*/
-.containerteam {
+.whoweare {
   width: 100%;
-  height: 2225px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.containerBarbara {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.containerLaura {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.containerLucia {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.containerPatricia {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.containerPaula {
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -268,7 +312,7 @@ i {
 }
 
 /*Quienes somos*/
-.containerteam {
+.containerBarbara {
   width: 100%;
   height: 2225px;
   display: flex;
