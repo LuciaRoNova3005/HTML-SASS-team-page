@@ -4,6 +4,10 @@
   color: #099d8d;
   font-family: Rubik-Medium;
 }
+.hero {
+  background: image 
+  z-index: -1;
+}
 .lema {
   box-sizing: border-box;
   margin: 15px;
