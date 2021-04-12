@@ -263,6 +263,8 @@ i {
 .rrss {
   text-align: center;
   color: #099d8d;
+  margin: 15px;
+  margin: auto;
 }
 
 /*Quienes somos*/
@@ -293,7 +295,6 @@ i {
   top: 105px;
   margin: 0;
   padding: 15px;
-  background-color: seagreen;
   justify-content: center;
 }
 
@@ -301,29 +302,33 @@ i {
   width: 180px;
   height: 180px;
   justify-content: center;
-  border-radius: 4px;
   margin: auto;
-  background-color: red;
-  box-shadow: 0 0 5px 5px gray;
+
   box-sizing: border-box;
 }
 .imagebio {
   width: 100%;
   justify-content: center;
   background-color: violet;
+  border-radius: 4px;
+  border: 5px solid lightgray;
 }
-
 .name {
   font-family: "Open sans";
   font-size: 20px;
   color: black;
   text-align: center;
+  margin-top: 15px;
+  top: 300px;
 }
 .bio {
   font-family: "Open sans";
   font-size: 16px;
   color: #54585a;
   text-align: center;
+  top: 345px;
+  margin: 15px;
+  line-height: 24px;
 }
 
 /* estilo header*/
