@@ -3,6 +3,7 @@
   font-size: 24px;
   color: #099d8d;
   font-family: Rubik-Medium;
+  text-transform: uppercase;
 }
 .hero {
   background: image 
@@ -27,7 +28,7 @@ i {
 
 /*Quienes somos*/
 .containerteam {
-  width: 320px;
+  width: 100%;
   height: 2225px;
   display: flex;
   flex-direction: row;
@@ -40,7 +41,16 @@ i {
   text-align: center;
   position: relative;
   top: 105px;
-  margin: 45px;
+  margin: auto;
+}
+.pic {
+  height: 180px;
+  width: 180px;
+  font-family: Opensans;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+
 }
 .name {
   font-family: Opensans;
