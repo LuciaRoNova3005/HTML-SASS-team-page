@@ -133,31 +133,6 @@ a:hover {
 }
 
 /*---------HEAD---------*/
-.copy {
-  text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: grey;
-  line-height: 20px;
-  font-size: 14px;
-}
-.footer {
-  width: 320px;
-}
-.footcontainer {
-  margin: 20px 29px 30px;
-  opacity: 0.75;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.43;
-  font-family: "Open Sans-semibold", sans-serif;
-  color: #54585a;
-}
-
-.footlogo {
-  width: 115.9px;
-  height: 45px;
-  margin: 30px 28.1px 0 28px;
-}
 
 /*-----------EQUIPO-------------------*/
 
@@ -489,4 +464,39 @@ a:hover {
   position: relative;
   top: 15px;
   left: 145px;
+}
+
+/*---------footer--------------*/
+.footer {
+  background-color: #ffffff;
+  border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 250px;
+}
+.copy {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: gray;
+  margin-top: 0px 0px 30px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footcontainer {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 114px;
+  height: 100%;
+  color: #54585a;
+}
+
+.footlogo {
+  margin-top: 30px;
+  height: 45px;
 }
