@@ -107,7 +107,7 @@ a:hover {
   justify-content: center;
 }
 
-<<<<<<< HEAD
+/*---------HEAD---------*/
 .copy {
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -133,7 +133,7 @@ a:hover {
   height: 45px;
   margin: 30px 28.1px 0 28px;
 }
-=======
+
 /*-----------EQUIPO-------------------*/
 
 .team {
@@ -220,12 +220,7 @@ a:hover {
   height: 30px;
   transform: rotate(45deg);
   background-color: #ffffff;
-<<<<<<< HEAD
-}*/
->>>>>>> 87463026276d8e15f2eeabb3338a8b5c17a20f2a
-=======
   position: relative;
   top: 15px;
   left: 145px;
 }
->>>>>>> d93719ce47658bd8c939b749bfc4139a4da41b29
