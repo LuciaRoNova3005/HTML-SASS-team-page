@@ -1,9 +1,8 @@
-
 .title {
   text-align: center;
   font-size: 24px;
   color: #099d8d;
-  font-family: Rubik-Medium;
+  font-family: "Rubik";
   text-transform: uppercase;
 }
 
@@ -48,7 +47,6 @@ i {
   font-size: 20px;
   color: black;
   text-align: center;
-
 }
 .name {
   font-family: Opensans;
@@ -255,7 +253,7 @@ a:hover {
   text-align: center;
   font-size: 24px;
   color: #099d8d;
-  font-family: Rubik-Medium;
+  font-family: "Rubik";
 }
 
 .lema {
@@ -492,4 +490,3 @@ a:hover {
   top: 15px;
   left: 145px;
 }
-
