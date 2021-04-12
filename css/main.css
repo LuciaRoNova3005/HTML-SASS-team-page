@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .title {
   text-align: center;
   font-size: 24px;
@@ -252,3 +253,246 @@ a:hover {
   top: 15px;
   left: 145px;
 }
+=======
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #099d8d;
+  font-family: Rubik-Medium;
+}
+
+.lema {
+  box-sizing: border-box;
+  margin: 15px;
+  justify-content: center;
+}
+
+/*estilo de los logos de redes*/
+i {
+  font-size: 16px;
+  color: #099d8d;
+  font-family: Rubik;
+}
+.rrss {
+  text-align: center;
+  color: #099d8d;
+}
+
+/*Quienes somos*/
+.containerteam {
+  width: 320px;
+  height: 2225px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.teammember {
+  text-align: center;
+  position: relative;
+  top: 105px;
+  margin: 45px;
+}
+.name {
+  font-family: Opensans;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.bio {
+  font-family: Open sans;
+  font-size: 16px;
+  color: #54585a;
+  text-align: center;
+}
+
+/* estilo header*/
+.cabecera {
+  width: 320px;
+  height: 60px;
+  background-color: #099d8d;
+  opacity: 95%;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Rubik";
+  color: #fff;
+  line-height: 30px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.headcontainer {
+  width: 320px;
+  height: 105px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navegador {
+  width: 320px;
+  height: 45px;
+  background-color: #14d9c4;
+  opacity: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.navlinks {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Rubik";
+  justify-content: space-evenly;
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #099d8d;
+}
+
+/* No sé si esto está bien para traer las fuentes que no son los iconos de FontAwsome*/
+/*@font-face {
+  font-family: Rubik-Medium;
+  src: url(fonts/Rubik/static/Rubik-Medium.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semi-Bold;
+  src: url(fonts/Open_Sans/OpenSans-SemiBold.ttf);
+}*/
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #099d8d;
+  font-family: "Rubik";
+}
+.lema {
+  box-sizing: border-box;
+  margin: 15px;
+  justify-content: center;
+}
+
+/*---------HEAD---------*/
+.copy {
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
+  line-height: 20px;
+  font-size: 14px;
+}
+.footer {
+  width: 320px;
+}
+.footcontainer {
+  margin: 20px 29px 30px;
+  opacity: 0.75;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  font-family: "Open Sans-semibold", sans-serif;
+  color: #54585a;
+}
+
+.footlogo {
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
+}
+
+/*-----------EQUIPO-------------------*/
+
+.team {
+  width: 320px;
+}
+
+.description {
+  height: 504px;
+  background-color: #ffffff;
+  /*border: solid 1px black;*/
+}
+
+.title-team {
+  width: 89px;
+  height: 45px;
+  margin: 30px 114.5px 15px 116.5px;
+  font-family: "Rubik";
+  font-size: 24px;
+  text-align: center;
+  color: #14d9c4;
+}
+
+.p1 {
+  width: 290px;
+  height: 384px;
+  margin: 0px 15px 30px 15px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+.dafo {
+  height: 579px;
+  width: 320px;
+  padding: 30px 15px 45px 15px;
+  background-color: #b8b8b933;
+}
+
+.dafo-title-1 {
+  width: 290px;
+  height: 45px;
+  font-family: "Rubik";
+  font-size: 22px;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;
+}
+
+.p2 {
+  width: 290px;
+  height: 192px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+.dafo-title-2 {
+  width: 290px;
+  height: 45px;
+  font-family: "Rubik";
+  font-size: 22px;
+  line-height: 45px;
+  text-align: center;
+  color: #099d8d;
+}
+
+.p3 {
+  width: 290px;
+  height: 192px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+.piquito {
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: #ffffff;
+  position: relative;
+  top: 15px;
+  left: 145px;
+}
+>>>>>>> 499e2937147fef2aa9556627a72b05d3fe6f0900
