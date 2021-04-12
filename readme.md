@@ -5,6 +5,7 @@ Bio De Lucía
 Redes
 ------------------------------------------
 Bio de Patricia
+Riojana de nacimiento y de corazón y en los últimos años maña de adopción, apasionada de las nuevas tecnologías. Me encanta aprender algo nuevo cada día. Etiquetas, etiquetas everywhere!! 
 Redes: vaquerosaenzpatricia@gmail.com
 https://www.linkedin.com/
 https://github.com/PatriciaVaqueroSaenz
