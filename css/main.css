@@ -1,8 +1,8 @@
 .title {
   text-align: center;
   font-size: 24px;
-  color:#099d8d;
-  font-family: Rubik-Medium;
+  color: #099d8d;
+  font-family: Rubik;
 }
 .lema {
   box-sizing: border-box;
@@ -14,23 +14,38 @@
 i {
   font-size: 16px;
   color: #099d8d;
-  font-family: Rubik ;
+  font-family: Rubik;
 }
 .rrss {
-text-align: center;
-color: #099d8d;
+  text-align: center;
+  color: #099d8d;
 }
 
 /*Quienes somos*/
-
+.containerteam {
+  width: 320px;
+  height: 2225px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.teammember {
+  text-align: center;
+  position: relative;
+  top: 105px;
+  margin: 45px;
+}
 .name {
-  font-family: Opensans;
-  font-size: 20px ;
+  font-family: Open sans;
+  font-size: 20px;
   color: black;
   text-align: center;
 }
 .bio {
-  font-family: Opensans;
+  font-family: Open sans;
   font-size: 16px;
   color: #54585a;
   text-align: center;
