@@ -18,63 +18,57 @@ i {
 /*Quienes somos*/
 .whoweare {
   width: 100%;
+  height: 2225px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+}
+.titlewhoweare {
+  width: 100%;
+  margin: 30px;
+  font-family: "Rubik";
+  font-size: 24px;
+  text-align: center;
+  color: #099d8d;
+  text-transform: uppercase;
 }
 .containerBarbara {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  margin: 25px;
 }
 .containerLaura {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  margin: 25px;
 }
 .containerLucia {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  margin: 25px;
 }
 .containerPatricia {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  margin: 25px;
 }
 .containerPaula {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-}
-.teammember {
-  text-align: center;
-  position: relative;
-  top: 105px;
-  margin: auto;
+  margin: 25px;
 }
 .pic {
   height: 180px;
@@ -312,16 +306,6 @@ i {
 }
 
 /*Quienes somos*/
-.containerBarbara {
-  width: 100%;
-  height: 2225px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-}
 
 .title {
   text-align: center;
