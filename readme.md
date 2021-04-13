@@ -3,7 +3,11 @@ Slogan:
 ------------------------------------------
 Bio De Lucía
 Redes
-------------------------------------------
+lucia.r.nova2@gmail.com
+https://www.linkedin.com/in/luciarodrigueznova/
+https://github.com/LuciaRoNova3005/ejercicios-adalab
+No more dramas more breakpotin. Cinéfila de la A la serie Z.
+
 Bio de Patricia
 Riojana de nacimiento y de corazón y en los últimos años maña de adopción, apasionada de las nuevas tecnologías. Me encanta aprender algo nuevo cada día. Etiquetas, etiquetas everywhere!! 
 Redes: vaquerosaenzpatricia@gmail.com
