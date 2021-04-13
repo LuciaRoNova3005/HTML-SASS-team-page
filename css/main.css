@@ -67,12 +67,12 @@
   color: #099d8d;
 }
 
-a:link,
+/* a:link,
 a:visited,
 a:active {
   text-decoration: none;
   color: #54585a;
-}
+} */
 
 /*2-Hero-->*/
 .hero {
@@ -350,11 +350,24 @@ i {
   color: grey;
   margin-top: 0px 0px 20px;
   line-height: 1.43;
+  display: flex;
+  flex-direction: column;
 }
 .footlogo {
   width: 115.9px;
   height: 45px;
   margin: 30px 28.1px 0 28px;
+}
+
+.footer-link:link,
+.footer-link:visited,
+.footer-link:active {
+  text-decoration: none;
+  color: #54585a;
+}
+
+.footer-link:hover {
+  color: #099d8d;
 }
 
 /*---------------------------------------*/
