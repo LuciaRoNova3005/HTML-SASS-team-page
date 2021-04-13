@@ -74,7 +74,7 @@ a:active {
   color: #54585a;
 } */
 
-/*2-Hero-->*/
+/*----2-Hero-------------------------------*/
 .hero {
   box-sizing: border-box;
   height: 450px;
@@ -105,11 +105,9 @@ a:active {
   font-size: 18px;
   line-height: 1.39;
 }
-/*--3.---------EQUIPO-------------------*/
 
-/*.team {
-  width: 320px;
-}*/
+
+/*--3.---------EQUIPO-------------------*/
 
 .team-container {
   margin: 0 15px;
@@ -371,7 +369,7 @@ i {
   color: #099d8d;
 }
 
-/*---------------------------------------*/
+/*--------RESPONSIVE-------------------------------*/
 
 @media (min-width: 768px) {
   .dafo-container {
