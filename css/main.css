@@ -377,6 +377,21 @@ i {
 /*--------RESPONSIVE-------------------------------*/
 
 @media (min-width: 768px) {
+  /*--------HERO---*/
+  .lema {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 15px 30px;
+    opacity: 0.8;
+    text-align: center;
+    margin: 366px 441px 0 46px;
+    padding: 15px 30px 15px 30px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.563rem;
+  }
+  /*------FIN HERO---*/
   .dafo-container {
     margin: 0 45px;
     display: flex;
@@ -397,13 +412,12 @@ i {
 }
 
 @media (min-width: 1200px) {
-  
   .description {
     width: 50%;
-    margin:auto;
+    margin: auto;
     padding-top: 45px;
   }
-  
+
   .dafo-container {
     margin: 0 138px;
     display: flex;
