@@ -1,21 +1,4 @@
 /*----1------ estilo header*/
-.cabecera {
-  width: 100%;
-  height: 60px;
-  background-color: #099d8d;
-  opacity: 95%;
-  text-transform: uppercase;
-  font-family: "Rubik";
-  font-weight: 500;
-  color: #fff;
-  line-height: 1.875rem;
-  font-size: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  z-index: 999;
-}
 .headcontainer {
   width: 100%;
   height: 105px;
@@ -24,15 +7,36 @@
   position: fixed;
   top: 0;
   left: 0;
-  /* z-index: 999; */
+  z-index: 5;
   margin: 0 0 15px 0;
+}
+
+.cabecera {
+  width: 100%;
+  height: 60px;
+  background-color: #099d8d;
+  opacity: 0.95;
+  text-transform: uppercase;
+  font-family: "Rubik";
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.875rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5; */
 }
 
 .navegador {
   width: 100%;
   height: 45px;
   background-color: #14d9c4;
-  opacity: 0.9%;
+  opacity: 0.9;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -40,7 +44,7 @@
   position: fixed;
   top: 60;
   left: 0;
-  /* z-index: 999; */
+  z-index: 5;
 }
 .navlinks {
   font-size: 0.9375rem;
@@ -49,7 +53,7 @@
   font-weight: 500;
   justify-content: space-evenly;
   line-height: 1.875rem;
-  /* z-index: 999; */
+  z-index: 5;
 }
 a:link,
 a:visited,
