@@ -199,10 +199,12 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+  list-style: none;
 }
 .titlewhoweare {
   width: 100%;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-family: "Rubik";
   font-size: 24px;
   text-align: center;
@@ -285,10 +287,19 @@ i {
   font-family: Rubik;
 }
 .rrss {
+  width: 124px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   text-align: center;
+  justify-content: space-between;
   color: #099d8d;
   margin: 15px;
-  margin: auto;
+}
+
+.list {
+  list-style: none;
+  text-align: center;
 }
 
 /*--5.-footer--------------------------*/
