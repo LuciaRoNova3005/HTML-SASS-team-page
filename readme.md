@@ -5,8 +5,10 @@ Slogan:
 
 Bio De Lucía
 Redes
-
----
+lucia.r.nova2@gmail.com
+https://www.linkedin.com/in/luciarodrigueznova/
+https://github.com/LuciaRoNova3005/ejercicios-adalab
+No more dramas more breakpotin. Cinéfila de la A la serie Z.
 
 Bio de Patricia
 Riojana de nacimiento y de corazón y en los últimos años maña de adopción, apasionada de las nuevas tecnologías. Me encanta aprender algo nuevo cada día. Etiquetas, etiquetas everywhere!!
@@ -17,13 +19,20 @@ https://github.com/PatriciaVaqueroSaenz
 ---
 
 Bio de Paula
-Publicista, viajera y gallega. Después de trabajar por el mundo en medios de comunicación, me he instalado en Madrid para ser madre y programadora.
-Redes: paulaalbovn@gmail.com
-https://www.linkedin.com/
-https://github.com/paulaavn
-
-Bio de Bárbara
 Redes
+
+---
+
+## Bio de Bárbara
+
+Quiero llenar mi vida de mediaqueries que ayuden a adaptarme ante los breakpoints que surjan en el camino para ser una Desarrolladora Front-end. Me encanta trabajar en equipo donde todos aporten diferentes puntos de vista y nadie tiene una posición absoluta. Flexbox all the things!
+
+## Redes
+
+https://twitter.com/barbaraestevez // @barbaraestevez
+https://www.linkedin.com/in/barbara-estevez-simonet/
+https://github.com/barbaraestevez
+barbara.estevez@gmail.com
 
 ---
 
