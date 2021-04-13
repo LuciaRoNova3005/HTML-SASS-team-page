@@ -63,7 +63,6 @@ a:hover {
   color: #099d8d;
 }
 
-
 /*--3.---------EQUIPO-------------------*/
 
 .team {
@@ -204,41 +203,40 @@ i {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  margin: 25px;
+  margin: 20px;
 }
 .containerLaura {
   width: 100%;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  margin: 25px;
+  margin: 20px;
 }
 .containerLucia {
   width: 100%;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  margin: 25px;
+  margin: 20px;
 }
 .containerPatricia {
   width: 100%;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  margin: 25px;
+  margin: 20px;
 }
 .containerPaula {
   width: 100%;
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  margin: 25px;
+  margin: 20px;
 }
 .pic {
   height: 180px;
   width: 180px;
-
-  font-family: Opensans;
+  font-family: "Opensans";
   font-size: 20px;
   color: black;
   text-align: center;
@@ -246,7 +244,7 @@ i {
 }
 .imagebio {
   max-width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   box-sizing: border-box;
 }
@@ -262,8 +260,6 @@ i {
   color: #54585a;
   text-align: center;
 }
-
-
 
 .title {
   text-align: center;
@@ -304,17 +300,12 @@ i {
   margin: 30px 28.1px 0 28px;
 }
 
-
-
 .title {
   text-align: center;
   font-size: 24px;
   color: #099d8d;
   font-family: "Rubik";
 }
-
-
-
 
 /*Quienes somos*/
 
@@ -376,7 +367,6 @@ i {
   color: #099d8d;
   font-family: "Rubik";
 }
-
 
 /*---------HEAD---------*/
 .copy {
