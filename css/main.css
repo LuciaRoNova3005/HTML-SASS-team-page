@@ -78,6 +78,7 @@ a:hover {
   background: url(../images/isla-java.jpg);
   background-size: cover;
   width: 100%;
+  background-position: center;
 }
 
 .lema {
