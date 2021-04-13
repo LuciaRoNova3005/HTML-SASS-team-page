@@ -397,8 +397,15 @@ i {
 }
 
 @media (min-width: 1200px) {
+  
+  .description {
+    width: 50%;
+    margin:auto;
+    padding-top: 45px;
+  }
+  
   .dafo-container {
-    margin: 0 45px;
+    margin: 0 138px;
     display: flex;
     flex-direction: row;
     justify-content: center;
