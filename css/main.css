@@ -1,7 +1,6 @@
-:root{
+:root {
   font-size: 16px;
 }
-
 
 /*----1------ estilo header*/
 .headcontainer {
@@ -110,7 +109,6 @@ a:active {
   font-size: 18px;
   line-height: 1.563rem;
 }
-
 
 /*--3.---------EQUIPO-------------------*/
 
@@ -414,3 +412,28 @@ i {
     padding-bottom: 60px;
   }
 }
+
+/*-----------RESPONSIVE---HEADER----------------------*/
+
+@media (min-width: 768px) {
+  .headontainer {
+    margin: 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  h1.cabecera {
+    width: 50%;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .navegador {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: #099d8d;
+  }
+}
+
+/*--------FIN---RESPONSIVE---HEADER-------------------*/
