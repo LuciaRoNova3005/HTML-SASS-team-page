@@ -95,10 +95,11 @@ a:active {
   box-sizing: border-box;
   background-color: #ffffff;
   padding: 15px;
-  position: relative;
-  top: 307px;
+  /* position: relative; */
+  /* bottom: -357px; */
+  /* top: 387px; */
   text-align: center;
-  margin: 15px;
+  margin: 387px 15px 0 15px;
   font-family: "Open Sans";
   font-weight: bold;
   font-size: 18px;
