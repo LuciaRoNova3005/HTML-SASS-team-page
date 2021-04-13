@@ -55,15 +55,25 @@
   line-height: 1.875rem;
   z-index: 5;
 }
+
+.header-link:link,
+.header-link:visited,
+.header-link:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-link:hover {
+  color: #099d8d;
+}
+
 a:link,
 a:visited,
 a:active {
   text-decoration: none;
-  color: #fff;
+  color: #54585a;
 }
-a:hover {
-  color: #099d8d;
-}
+
 /*2-Hero-->*/
 .hero {
   box-sizing: border-box;
