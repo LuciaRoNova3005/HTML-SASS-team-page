@@ -292,6 +292,7 @@ i {
   font-size: 16px;
   color: #099d8d;
   font-family: Rubik;
+  text-align: center;
 }
 .rrss {
   width: 124px;
@@ -302,11 +303,7 @@ i {
   justify-content: space-between;
   color: #099d8d;
   margin: 15px;
-}
-
-.list {
-  list-style: none;
-  text-align: center;
+  box-sizing: border-box;
 }
 
 /*--5.-footer--------------------------*/
