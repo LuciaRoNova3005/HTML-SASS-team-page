@@ -96,9 +96,9 @@ a:hover {
 }
 /*--3.---------EQUIPO-------------------*/
 
-.team {
+/*.team {
   width: 320px;
-}
+}*/
 
 .team-container {
   margin: 0 15px;
@@ -136,25 +136,27 @@ a:hover {
 .triangle {
   width: 30px;
   height: 30px;
-  transform: rotate(45deg);
+  transform: rotate(45deg) translate(0,0);
   background-color: #ffffff;
   position: relative;
   top: 15px;
-  left: 43.37%;
+  left: 47%;
 }
 /*---debilidades-y-fortalezas-----*/
 
 .dafo {
-  height: 579px;
+  height: 805px;
   background-color: #b8b8b933;
 }
 
 .dafo-container {
   margin: 0 15px;
-  padding-top: 30px;
-  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
 }
-
+.strengths{
+  padding-top: 30px;
+}
 .dafo-title-1 {
   width: 100%;
   height: 45px;
@@ -167,14 +169,17 @@ a:hover {
 
 .p2 {
   width: 100%;
-  height: 192px;
+  height: 305px;
   font-family: "Open Sans";
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: #54585a;
 }
-
+.weaknesses{
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
 .dafo-title-2 {
   width: 100%;
   height: 45px;
@@ -187,13 +192,14 @@ a:hover {
 
 .p3 {
   width: 100%;
-  height: 192px;
+  height: 305px;
   font-family: "Open Sans";
   font-size: 16px;
   line-height: 24px;
   text-align: center;
   color: #54585a;
 }
+
 
 /*--4.-quienes-somos-----------------------------*/
 
@@ -307,29 +313,86 @@ i {
 }
 
 /*--5.-footer--------------------------*/
-
+.footer {
+  border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 100vw;
+  padding: 30px;
+}
 .copy {
+  height: 20px;
+  margin: 0px 0px 20px;
+  color: grey;
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: grey;
-  line-height: 20px;
   font-size: 14px;
-}
-.footer {
-  width: 320px;
 }
 .footcontainer {
-  margin: 20px 29px 30px;
-  opacity: 0.75;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.43;
+  text-align: center;
   font-family: "Open Sans-semibold", sans-serif;
-  color: #54585a;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100vw;
+  height: 60px;
+  color: grey;
+  margin-top: 0px 0px 20px;
+  line-height: 1.43;
 }
-
 .footlogo {
   width: 115.9px;
   height: 45px;
   margin: 30px 28.1px 0 28px;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------*/
+
+@media (min-width:768px) {
+  .dafo-container {
+    margin: 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .strengths{
+    width:50%;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    margin-right: 30px;
+  }
+  .weaknesses{
+    width: 50%;
+    padding-top: 45px;
+    padding-bottom: 60px;
+  }
+}
+
+@media (min-width:1200px) {
+  .dafo-container {
+    margin: 0 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .strengths{
+    width:50%;
+    margin-right: 45px;
+  }
+  .weaknesses{
+    width: 50%;
+    padding-bottom: 60px;
+  }
 }
