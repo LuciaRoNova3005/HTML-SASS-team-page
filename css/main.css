@@ -250,13 +250,15 @@ a:hover {
   height: 180px;
   justify-content: center;
   margin: auto;
-
   box-sizing: border-box;
+  border-radius: 4px;
 }
 .imagebio {
   width: 100%;
+  height: 100%;
   justify-content: center;
   border-radius: 4px;
+  object-fit: cover;
   border: 5px solid lightgray;
 }
 .name {
