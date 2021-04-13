@@ -1,3 +1,8 @@
+:root{
+  font-size: 16px;
+}
+
+
 /*----1------ estilo header*/
 .headcontainer {
   width: 100%;
@@ -103,7 +108,7 @@ a:active {
   font-family: "Open Sans";
   font-weight: bold;
   font-size: 18px;
-  line-height: 1.39;
+  line-height: 1.563rem;
 }
 
 
@@ -125,7 +130,8 @@ a:active {
   height: 45px;
   margin: auto;
   font-family: "Rubik";
-  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 2.813rem;
   text-align: center;
   color: #14d9c4;
 }
@@ -133,9 +139,10 @@ a:active {
 .p1 {
   width: 100%;
   height: 384px;
+  margin-top: 15px;
   font-family: "Open Sans";
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #54585a;
 }
@@ -154,7 +161,7 @@ a:active {
 /*---debilidades-y-fortalezas-----*/
 
 .dafo {
-  height: 805px;
+  height: 705px;
   background-color: #b8b8b933;
 }
 
@@ -170,18 +177,18 @@ a:active {
   width: 100%;
   height: 45px;
   font-family: "Rubik";
-  font-size: 22px;
-  line-height: 45px;
+  font-size: 1.375rem;
+  line-height: 2.813rem;
   text-align: center;
   color: #099d8d;
 }
 
 .p2 {
   width: 100%;
-  height: 305px;
+  height: 255px;
   font-family: "Open Sans";
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #54585a;
 }
@@ -193,18 +200,18 @@ a:active {
   width: 100%;
   height: 45px;
   font-family: "Rubik";
-  font-size: 22px;
-  line-height: 45px;
+  font-size: 1.375rem;
+  line-height: 2.813rem;
   text-align: center;
   color: #099d8d;
 }
 
 .p3 {
   width: 100%;
-  height: 305px;
+  height: 255px;
   font-family: "Open Sans";
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #54585a;
 }
