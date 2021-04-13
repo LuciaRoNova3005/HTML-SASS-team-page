@@ -201,16 +201,21 @@ a:hover {
   width: 320px;
 }
 
+.team-container{
+  margin: 0 15px;
+}
+
 .description {
   height: 504px;
   background-color: #ffffff;
+  padding-top: 30px;
   /*border: solid 1px black;*/
 }
 
 .title-team {
-  width: 89px;
+  width: 100%;
   height: 45px;
-  margin: 30px 114.5px 15px 116.5px;
+  margin: auto;
   font-family: "Rubik";
   font-size: 24px;
   text-align: center;
@@ -218,9 +223,8 @@ a:hover {
 }
 
 .p1 {
-  width: 290px;
+  width: 100%;
   height: 384px;
-  margin: 0px 15px 30px 15px;
   font-family: "Open Sans";
   font-size: 16px;
   line-height: 24px;
@@ -228,25 +232,43 @@ a:hover {
   color: #54585a;
 }
 
+/*-----piquito--------*/
+
+.triangle{
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+  background-color: #ffffff;
+  position: relative;
+  top: 15px;
+  left: 43.37%;
+}
+/*---debilidades-y-fortalezas-----*/
+
 .dafo {
   height: 579px;
-  width: 320px;
-  padding: 30px 15px 45px 15px;
   background-color: #b8b8b933;
 }
 
+.dafo-container{
+  margin: 0 15px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
 .dafo-title-1 {
-  width: 290px;
+  width: 100%;
   height: 45px;
   font-family: "Rubik";
   font-size: 22px;
   line-height: 45px;
   text-align: center;
   color: #099d8d;
+
 }
 
 .p2 {
-  width: 290px;
+  width: 100%;
   height: 192px;
   font-family: "Open Sans";
   font-size: 16px;
@@ -256,7 +278,7 @@ a:hover {
 }
 
 .dafo-title-2 {
-  width: 290px;
+  width: 100%;
   height: 45px;
   font-family: "Rubik";
   font-size: 22px;
@@ -266,7 +288,7 @@ a:hover {
 }
 
 .p3 {
-  width: 290px;
+  width: 100%;
   height: 192px;
   font-family: "Open Sans";
   font-size: 16px;
@@ -275,15 +297,7 @@ a:hover {
   color: #54585a;
 }
 
-.piquito {
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg);
-  background-color: #ffffff;
-  position: relative;
-  top: 15px;
-  left: 145px;
-}
+/*--------------------------------*/
 
 .title {
   text-align: center;
