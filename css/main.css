@@ -62,7 +62,31 @@ a:active {
 a:hover {
   color: #099d8d;
 }
+/*2-Hero-->*/
+.hero {
+  box-sizing: border-box;
+  height: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imagen-hero {
+  height: 421px;
+  background: url(../images/isla-java.jpg);
+  background-size: cover;
+  width: 100%;
+}
 
+.lema {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  padding: 15px;
+  position: relative;
+  top: 307px;
+  text-align: center;
+  margin: 15px;
+}
 /*--3.---------EQUIPO-------------------*/
 
 .team {
