@@ -310,27 +310,36 @@ i {
 }
 
 /*--5.-footer--------------------------*/
-
+.footer {
+  border: solid 1px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 100vw;
+  padding: 30px;
+}
 .copy {
+  height: 20px;
+  margin: 0px 0px 20px;
+  color: grey;
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: grey;
-  line-height: 20px;
   font-size: 14px;
-}
-.footer {
-  width: 320px;
 }
 .footcontainer {
-  margin: 20px 29px 30px;
-  opacity: 0.75;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.43;
+  text-align: center;
   font-family: "Open Sans-semibold", sans-serif;
-  color: #54585a;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  width: 100vw;
+  height: 60px;
+  color: grey;
+  margin-top: 0px 0px 20px;
+  line-height: 1.43;
 }
-
 .footlogo {
   width: 115.9px;
   height: 45px;
