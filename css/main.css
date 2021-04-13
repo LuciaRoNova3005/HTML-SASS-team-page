@@ -77,10 +77,18 @@ i {
 .pic {
   height: 180px;
   width: 180px;
+
   font-family: Opensans;
   font-size: 20px;
   color: black;
   text-align: center;
+  box-sizing: border-box;
+}
+.imagebio {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-sizing: border-box;
 }
 .name {
   font-family: Opensans;
@@ -201,7 +209,7 @@ a:hover {
   width: 320px;
 }
 
-.team-container{
+.team-container {
   margin: 0 15px;
 }
 
@@ -234,7 +242,7 @@ a:hover {
 
 /*-----piquito--------*/
 
-.triangle{
+.triangle {
   width: 30px;
   height: 30px;
   transform: rotate(45deg);
@@ -250,7 +258,7 @@ a:hover {
   background-color: #b8b8b933;
 }
 
-.dafo-container{
+.dafo-container {
   margin: 0 15px;
   padding-top: 30px;
   padding-bottom: 45px;
@@ -264,7 +272,6 @@ a:hover {
   line-height: 45px;
   text-align: center;
   color: #099d8d;
-
 }
 
 .p2 {
@@ -476,5 +483,3 @@ a:hover {
   height: 45px;
   margin: 30px 28.1px 0 28px;
 }
-
-
