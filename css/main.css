@@ -188,21 +188,8 @@ a:hover {
   color: #54585a;
 }
 
-/*--------------------------------*/
+/*--4.-quienes-somos-----------------------------*/
 
-/*estilo de los logos de redes*/
-i {
-  font-size: 16px;
-  color: #099d8d;
-  font-family: Rubik;
-}
-.rrss {
-  text-align: center;
-  color: #099d8d;
-  margin: 15px;
-  margin: auto;
-}
-/*Quienes somos*/
 .whoweare {
   width: 100%;
   height: 2225px;
@@ -257,100 +244,6 @@ i {
   box-sizing: border-box;
   margin: 20px;
 }
-.pic {
-  height: 180px;
-  width: 180px;
-  font-family: "Opensans";
-  font-size: 20px;
-  color: black;
-  text-align: center;
-  box-sizing: border-box;
-}
-.imagebio {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-.name {
-  font-family: Opensans;
-  font-size: 20px;
-  color: black;
-  text-align: center;
-}
-.bio {
-  font-family: Open sans;
-  font-size: 16px;
-  color: #54585a;
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-  font-size: 24px;
-  color: #099d8d;
-  font-family: "Rubik";
-}
-.lema {
-  box-sizing: border-box;
-  margin: 15px;
-  justify-content: center;
-}
-
-/*---------HEAD---------*/
-.copy {
-  text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: grey;
-  line-height: 20px;
-  font-size: 14px;
-}
-.footer {
-  width: 320px;
-}
-.footcontainer {
-  margin: 20px 29px 30px;
-  opacity: 0.75;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.43;
-  font-family: "Open Sans-semibold", sans-serif;
-  color: #54585a;
-}
-
-.footlogo {
-  width: 115.9px;
-  height: 45px;
-  margin: 30px 28.1px 0 28px;
-}
-
-.title {
-  text-align: center;
-  font-size: 24px;
-  color: #099d8d;
-  font-family: "Rubik";
-}
-
-/*Quienes somos*/
-
-.title {
-  text-align: center;
-  font-size: 24px;
-  color: #099d8d;
-  font-family: "Rubik";
-  text-transform: uppercase;
-  width: 100%;
-  margin: auto;
-  top: 30px;
-}
-.teammember {
-  text-align: center;
-  position: relative;
-  top: 105px;
-  margin: 0;
-  padding: 15px;
-  justify-content: center;
-}
 
 .pic {
   width: 180px;
@@ -363,7 +256,6 @@ i {
 .imagebio {
   width: 100%;
   justify-content: center;
-  background-color: violet;
   border-radius: 4px;
   border: 5px solid lightgray;
 }
@@ -384,15 +276,21 @@ i {
   margin: 15px;
   line-height: 24px;
 }
-
-.title {
-  text-align: center;
-  font-size: 24px;
+/*estilo de los logos de redes*/
+i {
+  font-size: 16px;
   color: #099d8d;
-  font-family: "Rubik";
+  font-family: Rubik;
+}
+.rrss {
+  text-align: center;
+  color: #099d8d;
+  margin: 15px;
+  margin: auto;
 }
 
-/*---------HEAD---------*/
+/*--5.-footer--------------------------*/
+
 .copy {
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
