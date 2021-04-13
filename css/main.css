@@ -18,6 +18,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  z-index: 999;
 }
 .headcontainer {
   width: 100%;
@@ -27,7 +28,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 999;
+  /* z-index: 999; */
   margin: 0 0 15px 0;
 }
 
@@ -43,7 +44,7 @@
   position: fixed;
   top: 60;
   left: 0;
-  z-index: 999;
+  /* z-index: 999; */
 }
 .navlinks {
   font-size: 0.9375rem;
@@ -52,6 +53,7 @@
   font-weight: 500;
   justify-content: space-evenly;
   line-height: 1.875rem;
+  /* z-index: 999; */
 }
 a:link,
 a:visited,
@@ -76,6 +78,7 @@ a:hover {
   background: url(../images/isla-java.jpg);
   background-size: cover;
   width: 100%;
+  background-position: center;
 }
 
 .lema {
@@ -86,6 +89,10 @@ a:hover {
   top: 307px;
   text-align: center;
   margin: 15px;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.39;
 }
 /*--3.---------EQUIPO-------------------*/
 
