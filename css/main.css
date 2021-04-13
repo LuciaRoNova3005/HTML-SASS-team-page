@@ -2,108 +2,7 @@
   width: 320px;
 }
 
-.lema {
-  box-sizing: border-box;
-  margin: 15px;
-  justify-content: center;
-}
-
-/*estilo de los logos de redes*/
-i {
-  font-size: 16px;
-  color: #099d8d;
-  font-family: Rubik;
-}
-.rrss {
-  text-align: center;
-  color: #099d8d;
-}
-
-/*Quienes somos*/
-.whoweare {
-  width: 100%;
-  height: 2225px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-}
-.titlewhoweare {
-  width: 100%;
-  margin: 30px;
-  font-family: "Rubik";
-  font-size: 24px;
-  text-align: center;
-  color: #099d8d;
-  text-transform: uppercase;
-}
-.containerBarbara {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 25px;
-}
-.containerLaura {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 25px;
-}
-.containerLucia {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 25px;
-}
-.containerPatricia {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 25px;
-}
-.containerPaula {
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
-  margin: 25px;
-}
-.pic {
-  height: 180px;
-  width: 180px;
-
-  font-family: Opensans;
-  font-size: 20px;
-  color: black;
-  text-align: center;
-  box-sizing: border-box;
-}
-.imagebio {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-.name {
-  font-family: Opensans;
-  font-size: 20px;
-  color: black;
-  text-align: center;
-}
-.bio {
-  font-family: Open sans;
-  font-size: 16px;
-  color: #54585a;
-  text-align: center;
-}
-
-/* estilo header*/
+/*----1------ estilo header*/
 .cabecera {
   width: 100%;
   height: 60px;
@@ -164,46 +63,8 @@ a:hover {
   color: #099d8d;
 }
 
-.title {
-  text-align: center;
-  font-size: 24px;
-  color: #099d8d;
-  font-family: "Rubik";
-}
-.lema {
-  box-sizing: border-box;
-  margin: 15px;
-  justify-content: center;
-}
 
-/*---------HEAD---------*/
-.copy {
-  text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: grey;
-  line-height: 20px;
-  font-size: 14px;
-}
-.footer {
-  width: 320px;
-}
-.footcontainer {
-  margin: 20px 29px 30px;
-  opacity: 0.75;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.43;
-  font-family: "Open Sans-semibold", sans-serif;
-  color: #54585a;
-}
-
-.footlogo {
-  width: 115.9px;
-  height: 45px;
-  margin: 30px 28.1px 0 28px;
-}
-
-/*-----------EQUIPO-------------------*/
+/*--3.---------EQUIPO-------------------*/
 
 .team {
   width: 320px;
@@ -306,19 +167,6 @@ a:hover {
 
 /*--------------------------------*/
 
-.title {
-  text-align: center;
-  font-size: 24px;
-  color: #099d8d;
-  font-family: "Rubik";
-}
-
-.lema {
-  box-sizing: border-box;
-  margin: 15px;
-  justify-content: center;
-}
-
 /*estilo de los logos de redes*/
 i {
   font-size: 16px;
@@ -331,6 +179,142 @@ i {
   margin: 15px;
   margin: auto;
 }
+/*Quienes somos*/
+.whoweare {
+  width: 100%;
+  height: 2225px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.titlewhoweare {
+  width: 100%;
+  margin: 30px;
+  font-family: "Rubik";
+  font-size: 24px;
+  text-align: center;
+  color: #099d8d;
+  text-transform: uppercase;
+}
+.containerBarbara {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 25px;
+}
+.containerLaura {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 25px;
+}
+.containerLucia {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 25px;
+}
+.containerPatricia {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 25px;
+}
+.containerPaula {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 25px;
+}
+.pic {
+  height: 180px;
+  width: 180px;
+
+  font-family: Opensans;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+}
+.imagebio {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+.name {
+  font-family: Opensans;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+.bio {
+  font-family: Open sans;
+  font-size: 16px;
+  color: #54585a;
+  text-align: center;
+}
+
+
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #099d8d;
+  font-family: "Rubik";
+}
+.lema {
+  box-sizing: border-box;
+  margin: 15px;
+  justify-content: center;
+}
+
+/*---------HEAD---------*/
+.copy {
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: grey;
+  line-height: 20px;
+  font-size: 14px;
+}
+.footer {
+  width: 320px;
+}
+.footcontainer {
+  margin: 20px 29px 30px;
+  opacity: 0.75;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.43;
+  font-family: "Open Sans-semibold", sans-serif;
+  color: #54585a;
+}
+
+.footlogo {
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
+}
+
+
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #099d8d;
+  font-family: "Rubik";
+}
+
+
+
 
 /*Quienes somos*/
 
@@ -386,76 +370,13 @@ i {
   line-height: 24px;
 }
 
-/* estilo header*/
-.cabecera {
-  width: 100%;
-  height: 60px;
-  background-color: #099d8d;
-  opacity: 95%;
-  text-transform: uppercase;
-  text-align: center;
-  font-family: "Rubik";
-  color: #fff;
-  line-height: 30px;
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.headcontainer {
-  width: 100%;
-  height: 105px;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.navegador {
-  width: 100%;
-  height: 45px;
-  background-color: #14d9c4;
-  opacity: 90%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.navlinks {
-  font-size: 15px;
-  text-transform: uppercase;
-  font-family: "Rubik";
-  justify-content: space-evenly;
-}
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-  color: #fff;
-}
-a:hover {
-  color: #099d8d;
-}
-
-/* No sé si esto está bien para traer las fuentes que no son los iconos de FontAwsome*/
-/*@font-face {
-  font-family: Rubik-Medium;
-  src: url(fonts/Rubik/static/Rubik-Medium.ttf);
-}
-@font-face {
-  font-family: OpenSans-Semi-Bold;
-  src: url(fonts/Open_Sans/OpenSans-SemiBold.ttf);
-}*/
-
 .title {
   text-align: center;
   font-size: 24px;
   color: #099d8d;
   font-family: "Rubik";
 }
-.lema {
-  box-sizing: border-box;
-  margin: 15px;
-  justify-content: center;
-}
+
 
 /*---------HEAD---------*/
 .copy {
