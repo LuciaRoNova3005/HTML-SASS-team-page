@@ -380,6 +380,10 @@ i {
     line-height: 1.563rem;
   }
   /*------FIN HERO---*/
+  .dafo {
+    height: 505px;
+  }
+
   .dafo-container {
     margin: 0 45px;
     display: flex;
