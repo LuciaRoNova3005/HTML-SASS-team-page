@@ -41,7 +41,7 @@
   justify-content: space-evenly;
   align-items: center;
   position: fixed;
-  top: 60;
+  /* top: 60; */
   left: 0;
   z-index: 5;
 }
@@ -55,7 +55,7 @@
   text-transform: uppercase;
   font-family: "Rubik";
   font-weight: 500;
-  padding: 0 0.625rem 0 0.625rem;
+  padding: 0 0.625rem 0 0.625rem; /* ESTO ESTA MAL PORQUE LE AFECTA LA CLASE jawa-container */
   line-height: 1.875rem;
 }
 
@@ -380,10 +380,10 @@ i {
     padding: 0 45px;
   }
   .nav-list {
-    margin-right: 0.75rem;
+    /* margin-right: 0.75rem; */
   }
   .navlinks {
-    padding: 1rem;
+    /* padding-left: 1rem; */
   }
 
   /*--2----------------------------*/
@@ -402,39 +402,38 @@ i {
   }
 
   /*--3----------------------------*/
-  
-.jawa-container {
-  margin: 0 2.8125rem;
-}
 
-.dafo-container {
-  margin: 0 2.8125rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.strengths {
-  width: 50%;
-  padding-top: 2.8125rem;
-  padding-bottom: 3.75rem;
-  margin-right: 1.875rem;
-}
-.weaknesses {
-  width: 50%;
-  padding-top: 2.8125rem;
-  padding-bottom: 2.8125rem;
-}
-.triangle{
-  position: relative;
-  left: 50%;
-}
-.p2{
-  padding-top: 0.9375rem;
-}
-.p3{
-  padding-top: 0.9375rem;
-}
+  .jawa-container {
+    margin: 0 2.8125rem;
+  }
 
+  .dafo-container {
+    margin: 0 2.8125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .strengths {
+    width: 50%;
+    padding-top: 2.8125rem;
+    padding-bottom: 3.75rem;
+    margin-right: 1.875rem;
+  }
+  .weaknesses {
+    width: 50%;
+    padding-top: 2.8125rem;
+    padding-bottom: 2.8125rem;
+  }
+  .triangle {
+    position: relative;
+    left: 50%;
+  }
+  .p2 {
+    padding-top: 0.9375rem;
+  }
+  .p3 {
+    padding-top: 0.9375rem;
+  }
 
   /*--4----------------------------*/
   .namebiorrss {
@@ -478,30 +477,29 @@ i {
     padding: 15px, 30px, 15px;
     margin: 366px 0px 0 0px;
   }
- /*--3----------------------------*/
+  /*--3----------------------------*/
 
- .description {
-  width: 50%;
-  margin: auto;
-  padding-top: 2.8125rem;
-  padding-bottom: 3.75rem;
-}
+  .description {
+    width: 50%;
+    margin: auto;
+    padding-top: 2.8125rem;
+    padding-bottom: 3.75rem;
+  }
 
-.dafo-container {
-  margin: 0 8.625rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.strengths {
-  width: 50%;
-  margin-right: 2.8125rem;
-}
-.weaknesses {
-  width: 50%;
-  padding-bottom: 3.75rem;
-}
-
+  .dafo-container {
+    margin: 0 8.625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .strengths {
+    width: 50%;
+    margin-right: 2.8125rem;
+  }
+  .weaknesses {
+    width: 50%;
+    padding-bottom: 3.75rem;
+  }
 
   /*--4----------------------------*/
 
