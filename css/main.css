@@ -91,11 +91,8 @@
   box-sizing: border-box;
   background-color: #ffffff;
   padding: 15px;
-  /* position: relative; */
-  /* bottom: -357px; */
-  /* top: 387px; */
   text-align: center;
-  margin: 387px 15px 0 15px;
+  margin: 387px 0px 0 0px;
   font-family: "Open Sans";
   font-weight: bold;
   font-size: 18px;
@@ -359,18 +356,9 @@ i {
   color: #099d8d;
 }
 
-
-
-
-
-
-
-
-
 /*--------RESPONSIVE-------------------------------*/
 
 @media (min-width: 768px) {
-
   /*--1----------------------------*/
   .headcontainer {
     height: 60px;
@@ -414,7 +402,7 @@ i {
   }
 
   /*--3----------------------------*/
-  
+
   .jawa-container {
     margin: 0 45px;
   }
@@ -449,18 +437,9 @@ i {
   }
 
   /*--5----------------------------*/
-
-
-
-
-
 }
 
-
-
-
 @media (min-width: 1200px) {
-
   /*--1----------------------------*/
   .headcontainer {
     height: 60px;
@@ -485,11 +464,12 @@ i {
     margin-left: 24px;
   }
   /*--2----------------------------*/
-
-
-
-
-
+  .lema {
+    opacity: 0.8;
+    width: 441px;
+    padding: 15px, 30px, 15px;
+    margin: 366px 0px 0 0px;
+  }
   /*--3----------------------------*/
 
   .description {
@@ -514,21 +494,5 @@ i {
   }
   /*--4----------------------------*/
 
-
-
-
-
-
-
-
   /*--5----------------------------*/
-
-
-
-
-
-
 }
-
-
-
