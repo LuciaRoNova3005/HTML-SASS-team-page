@@ -45,14 +45,18 @@
   left: 0;
   z-index: 5;
 }
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
 .navlinks {
   font-size: 0.9375rem;
   text-transform: uppercase;
   font-family: "Rubik";
   font-weight: 500;
-  justify-content: space-evenly;
+  padding: 0 0.625rem 0 0.625rem;
   line-height: 1.875rem;
-  z-index: 5;
 }
 
 .header-link:link,
@@ -455,8 +459,11 @@ i {
     background-color: inherit;
     padding: 0 45px;
   }
+  .nav-list {
+    margin-right: 0.75rem;
+  }
   .navlinks {
-    margin-left: 24px;
+    padding: 1rem;
   }
 }
 
