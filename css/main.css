@@ -384,12 +384,16 @@ i {
     line-height: 1.563rem;
   }
   /*------FIN HERO---*/
+  
+  .jawa-container {
+    margin: 0 45px;
+  }
+
   .dafo {
     height: 505px;
   }
 
   .dafo-container {
-    margin: 0 45px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -440,6 +444,7 @@ i {
 /*-----------RESPONSIVE---HEADER----------------------*/
 
 @media (min-width: 768px) {
+
   .headcontainer {
     height: 60px;
     box-sizing: border-box;
