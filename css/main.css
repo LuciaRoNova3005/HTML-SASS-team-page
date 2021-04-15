@@ -105,19 +105,18 @@
 /*--3.---------EQUIPO-------------------*/
 
 .jawa-container {
-  margin: 0 15px;
+  margin: 0 0.9375rem;
 }
 
 .description {
-  height: 424px;
+  height: auto;
   background-color: #ffffff;
-  padding-top: 30px;
-  /*border: solid 1px black;*/
+  padding: 30px 0;
 }
 
 .title-team {
   width: 100%;
-  height: 45px;
+  height: 2.8125rem;
   margin: auto;
   font-family: "Rubik";
   font-size: 1.5rem;
@@ -128,8 +127,8 @@
 
 .p1 {
   width: 100%;
-  height: 384px;
-  margin-top: 15px;
+  height: auto;
+  margin-top: 0.9375rem;
   font-family: "Open Sans";
   font-size: 1rem;
   line-height: 1.5rem;
@@ -137,35 +136,30 @@
   color: #54585a;
 }
 
-/*-----piquito--------*/
-
-.triangle {
-  width: 30px;
-  height: 30px;
-  transform: rotate(45deg) translate(0, 0);
-  background-color: #ffffff;
-  position: relative;
-  top: 15px;
-  left: 47%;
-}
-/*---debilidades-y-fortalezas-----*/
-
 .dafo {
-  height: 605px;
+  height: auto;
   background-color: #b8b8b933;
 }
 
 .dafo-container {
-  margin: 0 15px;
+  margin: 0 0.9375rem;
   display: flex;
   flex-direction: column;
 }
-.strengths {
-  padding-top: 30px;
+
+.triangle {
+  width: 1.875rem;
+  height: 1.875rem;
+  transform: rotate(45deg) translate(0, 0);
+  background-color: #ffffff;
+  position: relative;
+  bottom: 0.9375rem;
+  margin: 0 auto;
 }
+
 .dafo-title-1 {
   width: 100%;
-  height: 45px;
+  height: 2.8125rem;
   font-family: "Rubik";
   font-size: 1.375rem;
   line-height: 2.813rem;
@@ -175,7 +169,7 @@
 
 .p2 {
   width: 100%;
-  height: 205px;
+  height: auto;
   font-family: "Open Sans";
   font-size: 1rem;
   line-height: 1.5rem;
@@ -183,12 +177,11 @@
   color: #54585a;
 }
 .weaknesses {
-  padding-top: 30px;
-  padding-bottom: 45px;
+  padding: 1.875rem 0 2.8125rem;
 }
 .dafo-title-2 {
   width: 100%;
-  height: 45px;
+  height: 2.8125rem;
   font-family: "Rubik";
   font-size: 1.375rem;
   line-height: 2.813rem;
@@ -198,7 +191,7 @@
 
 .p3 {
   width: 100%;
-  height: 205px;
+  height: auto;
   font-family: "Open Sans";
   font-size: 1rem;
   line-height: 1.5rem;
