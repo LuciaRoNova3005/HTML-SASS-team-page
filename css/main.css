@@ -401,6 +401,13 @@ i {
     padding-top: 45px;
     padding-bottom: 60px;
   }
+  /*Laura*/
+  .namebiorrss {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  }
 }
 
 @media (min-width: 1200px) {
