@@ -407,31 +407,12 @@ i {
   .jawa-container {
     margin: 0 45px;
   }
-  .namebio {
-    display: flex;
-    flex-direction: column;
-  }
-  .namebiorrss {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-  }
+
   .container-Whoweare {
-    display: inline;
+    display: flex;
+    flex-direction: row;
   }
-  .pic {
-    display: inline-flex;
-  }
-
-  .bio {
-    display: inline;
-  }
-  .name {
-    display: inline;
-  }
-
-  .footer {
+  .name .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
