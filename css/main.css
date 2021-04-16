@@ -359,17 +359,10 @@ i {
 
   /*--2----------------------------*/
   .lema {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    padding: 15px 30px;
     opacity: 0.8;
-    text-align: center;
-    margin: 366px 441px 0 46px;
-    padding: 15px 30px 15px 30px;
-    font-family: "Open Sans";
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1.563rem;
+    width: 441px;
+    padding: 15px, 30px, 15px;
+    margin: 366px 0px 0 0px;
   }
 
   /*--3----------------------------*/
@@ -491,7 +484,6 @@ i {
     width: 50%;
     padding-bottom: 3.75rem;
   }
-
   /*--4----------------------------*/
 
   /*--5----------------------------*/
