@@ -284,7 +284,7 @@ i {
   flex-direction: column;
   align-items: center;
   height: 250px;
-  width: 100vw;
+  width: 100%;
   padding: 30px;
 }
 .copy {
@@ -296,19 +296,20 @@ i {
   color: grey;
   font-size: 14px;
 }
-.footcontainer {
+.footer-list {
   text-align: center;
   font-family: "Open Sans-semibold", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 14px;
-  width: 100vw;
+  width: 100%;
   height: 60px;
   color: grey;
   margin-top: 0px 0px 20px;
   line-height: 1.43;
   display: flex;
   flex-direction: column;
+  list-style: none;
 }
 .footlogo {
   width: 115.9px;
@@ -427,6 +428,29 @@ i {
     display: inline;
   }
 
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .copy {
+    position: absolute;
+    transform: translate(-400px, -30px);
+  }
+  .footlogo {
+    position: absolute;
+    transform: translate(-430px, -25px);
+  }
+  .footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 240px;
+    line-height: 2em;
+  }
+
   /*--5----------------------------*/
 }
 
@@ -485,6 +509,28 @@ i {
     padding-bottom: 3.75rem;
   }
   /*--4----------------------------*/
-
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .copy {
+    position: absolute;
+    transform: translate(-400px, -30px);
+  }
+  .footlogo {
+    position: absolute;
+    transform: translate(-430px, -25px);
+  }
+  .footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 200px;
+    line-height: 3em;
+  }
   /*--5----------------------------*/
 }
