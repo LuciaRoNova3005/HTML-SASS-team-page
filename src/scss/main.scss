@@ -227,7 +227,8 @@
   color: #099d8d;
   text-transform: uppercase;
 }
-.container-Whoweare {
+.container-WhoweareL,
+.container-WhoweareR {
   width: 100%;
   justify-content: space-between;
   align-items: center;
@@ -235,7 +236,6 @@
   margin-top: 1.563rem;
   margin-bottom: 1.25rem;
 }
-
 .pic {
   width: 11.25rem;
   height: 11.25rem;
@@ -251,14 +251,16 @@
   border: 0.313rem solid lightgray;
   border-radius: 0.625rem;
 }
-.name {
+.nameL,
+.nameR {
   font-family: "Open sans";
   font-size: 20px;
   color: black;
   text-align: center;
   margin-top: 15px;
 }
-.bio {
+.bioL,
+.bioR {
   font-family: "Open sans";
   font-size: 16px;
   color: #54585a;
@@ -273,7 +275,8 @@ i {
   font-family: "Rubik";
   text-align: center;
 }
-.rrss {
+.rrssL,
+.rrssR {
   width: 124px;
   display: flex;
   flex-direction: row;
@@ -418,7 +421,7 @@ i {
     margin: 0 45px;
   }
 
-  .container-Whoweare {
+  .container-WhoweareL {
     display: flex;
     flex-direction: row;
   }
@@ -426,23 +429,42 @@ i {
     min-width: 207px;
     min-height: 207px;
   }
-  .namebiorrss {
+  .container-WhoweareR {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .namebiorrssL {
     display: flex;
     flex-direction: column;
   }
-  .name {
+  .namebiorrssR {
+    display: flex;
+    flex-direction: column;
+  }
+  .nameL {
     margin-left: 29px;
     text-align: left;
   }
-  .bio {
+  .nameR {
+    margin-right: 29px;
+    text-align: right;
+  }
+  .bioL {
     margin-left: 29px;
     text-align: left;
   }
-  .rrss {
+  .bioR {
+    margin-right: 29px;
+    text-align: right;
+  }
+  .rrssL {
     text-align: left;
     margin-left: 29px;
   }
-
+  .rrssR {
+    text-align: right;
+    margin-right: 29px;
+  }
   .footer {
     display: flex;
     flex-direction: column;
@@ -470,9 +492,8 @@ i {
     position: absolute;
     transform: translateY(40px);
   }
-
-  /*--5----------------------------*/
 }
+/*--5----------------------------*/
 
 @media (min-width: 1200px) {
   /*--1----------------------------*/
@@ -554,5 +575,4 @@ i {
   .footlogo {
     margin-left: 125px;
   }
-  /*--5----------------------------*/
 }
