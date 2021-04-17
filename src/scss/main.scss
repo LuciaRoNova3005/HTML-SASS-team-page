@@ -422,6 +422,27 @@ i {
     display: flex;
     flex-direction: row;
   }
+  .pic {
+    min-width: 207px;
+    min-height: 207px;
+  }
+  .namebiorrss {
+    display: flex;
+    flex-direction: column;
+  }
+  .name {
+    margin-left: 29px;
+    text-align: left;
+  }
+  .bio {
+    margin-left: 29px;
+    text-align: left;
+  }
+  .rrss {
+    text-align: left;
+    margin-left: 29px;
+  }
+
   .name .footer {
     display: flex;
     flex-direction: row;
