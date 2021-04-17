@@ -287,33 +287,33 @@ i {
 
 /*--5.-footer--------------------------*/
 .footer {
-  border: solid 1px gray;
+  border-top: solid 1px gray;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 250px;
+  height: 15.63rem;
   width: 100%;
-  padding: 30px;
+  padding: 1.875rem;
 }
 .copy {
-  height: 20px;
-  margin: 0px 0px 20px;
+  height: 1.25rem;
+  margin: 0rem 0rem 1.25rem;
   color: grey;
   text-align: center;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   color: grey;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .footer-list {
   text-align: center;
   font-family: "Open Sans-semibold", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.875rem;
   width: 100%;
   height: 60px;
   color: grey;
-  margin-top: 0px 0px 20px;
+  margin-top: 0px 0px 1.25rem;
   line-height: 1.43;
   display: flex;
   flex-direction: column;
