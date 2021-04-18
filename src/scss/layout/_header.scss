@@ -1,19 +1,22 @@
-.page__header {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
-}
-/*----1------ estilo header*/
+// .page__header {
+//   display: flex;
+//   justify-content: space-evenly;
+//   margin-bottom: 3rem;
+// }
+
+
 .headcontainer {
   width: 100%;
   height: 105px;
+  display: flex;
   justify-content: space-evenly;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 5;
-  margin: 0 0 15px 0;
+  margin: 0 0 0.9375rem 0;
+  // padding: 0.9375rem;
 }
 
 .cabecera {
@@ -30,6 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0.9375rem;
 }
 
 .navegador {
@@ -42,7 +46,6 @@
   justify-content: space-evenly;
   align-items: center;
   position: fixed;
-  /* top: 60; */
   left: 0;
   z-index: 5;
 }
@@ -50,13 +53,18 @@
   list-style-type: none;
   display: flex;
   justify-content: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
 }
 .navlinks {
   font-size: 0.9375rem;
   text-transform: uppercase;
   font-family: "Rubik";
   font-weight: 500;
-  padding: 0 0.625rem 0 0.625rem; /* ESTO ESTA MAL PORQUE LE AFECTA LA CLASE jawa-container */
+  // padding: 0 0.9375rem 0 0.9375rem;
   line-height: 1.875rem;
 }
 
@@ -70,3 +78,46 @@
 .header-link:hover {
   color: #099d8d;
 }
+
+@media (min-width: 768px) {
+  .headcontainer {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cabecera {
+    justify-content: flex-start;
+    padding: 0 8.625rem;
+  }
+  .navegador {
+    justify-content: flex-end;
+  }
+  .nav-list {
+    justify-content: right;
+    padding: 0;
+  }
+  .navlinks {
+    padding: 0.75rem;
+  }
+
+@media (min-width: 1200px) {
+  .headcontainer {
+    width: 100%;
+    height: 105px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cabecera {
+    justify-content: flex-start;
+    padding: 0 8.625rem;
+  }
+  .navegador {
+    justify-content: flex-end;
+    padding: 0 8.625rem;
+  }
+  .navlinks {
+    padding: 0.75rem;
+  }
