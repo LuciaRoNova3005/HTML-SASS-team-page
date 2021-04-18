@@ -15,7 +15,7 @@
   top: 0;
   left: 0;
   z-index: 5;
-  margin: 0 0 0.9375rem 0;
+  // margin: 0 0 0.9375rem 0;
   // padding: 0.9375rem;
 }
 
@@ -59,12 +59,13 @@
   margin-inline-end: 0px;
   padding-inline-start: 0px;
 }
-.navlinks {
+.header-link {
   font-size: 0.9375rem;
   text-transform: uppercase;
   font-family: "Rubik";
   font-weight: 500;
-  // padding: 0 0.9375rem 0 0.9375rem;
+  text-decoration: none;
+  padding: 0.9375rem;
   line-height: 1.875rem;
 }
 
@@ -101,6 +102,9 @@
   .navlinks {
     padding: 0.75rem;
   }
+  .header-link:hover {
+    color: #14d9c4;
+  }
 
 @media (min-width: 1200px) {
   .headcontainer {
@@ -120,4 +124,7 @@
   }
   .navlinks {
     padding: 0.75rem;
+  }
+  .header-link:hover {
+    color: #14d9c4;
   }
