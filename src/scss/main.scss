@@ -417,21 +417,25 @@ i {
   }
 
   /*--4----------------------------*/
-  .jawa-container {
-    margin: 0 45px;
+  .whoweare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
   .container-WhoweareL {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
   .container-WhoweareR {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
   }
   .pic {
     min-width: 207px;
     min-height: 207px;
+    margin: initial;
   }
 
   .namebiorrss {
@@ -450,10 +454,12 @@ i {
   .bioL {
     margin-left: 29px;
     text-align: left;
+    width: 440px;
   }
   .bioR {
     margin-right: 29px;
     text-align: right;
+    width: 440px;
   }
   .rrssL {
     text-align: left;
@@ -463,6 +469,7 @@ i {
     text-align: right;
     margin-right: 29px;
   }
+  /*--------------------------------*/
   .footer {
     display: flex;
     flex-direction: column;
@@ -495,6 +502,10 @@ i {
 
 @media (min-width: 1200px) {
   /*--1----------------------------*/
+
+  .jawa-container {
+    margin: 0 8.625rem;
+  }
   .headcontainer {
     height: 60px;
     box-sizing: border-box;
@@ -548,6 +559,13 @@ i {
     padding-bottom: 3.75rem;
   }
   /*--4----------------------------*/
+
+  .pic {
+    min-width: 278px;
+    min-height: 278px;
+    margin: initial;
+  }
+  /*--5----------------------------*/
   .footer {
     display: flex;
     flex-direction: row;
