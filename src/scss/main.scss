@@ -425,22 +425,20 @@ i {
     display: flex;
     flex-direction: row;
   }
-  .pic {
-    min-width: 207px;
-    min-height: 207px;
-  }
   .container-WhoweareR {
     display: flex;
     flex-direction: row-reverse;
   }
-  .namebiorrssL {
+  .pic {
+    min-width: 207px;
+    min-height: 207px;
+  }
+
+  .namebiorrss {
     display: flex;
     flex-direction: column;
   }
-  .namebiorrssR {
-    display: flex;
-    flex-direction: column;
-  }
+
   .nameL {
     margin-left: 29px;
     text-align: left;
