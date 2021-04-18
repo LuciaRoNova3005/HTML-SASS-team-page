@@ -422,6 +422,11 @@ i {
     flex-direction: column;
     justify-content: center;
   }
+  .titlewhoweare {
+    width: 100%;
+    margin-top: 2.813rem;
+    margin-bottom: 2.5rem;
+  }
   .container-WhoweareL {
     display: flex;
     flex-direction: row;
@@ -446,10 +451,12 @@ i {
   .nameL {
     margin-left: 29px;
     text-align: left;
+    line-height: 2.813rem;
   }
   .nameR {
     margin-right: 29px;
     text-align: right;
+    line-height: 2.813rem;
   }
   .bioL {
     margin-left: 29px;
@@ -564,6 +571,15 @@ i {
     min-width: 278px;
     min-height: 278px;
     margin: initial;
+  }
+  .titlewhoweare {
+    width: 100%;
+    margin-top: 2.813rem;
+    margin-bottom: 2.5rem;
+  }
+  .container-WhoweareL,
+  .container-WhoweareR {
+    align-items: flex-start;
   }
   /*--5----------------------------*/
   .footer {
