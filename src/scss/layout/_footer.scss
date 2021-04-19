@@ -1,6 +1,6 @@
 /*--5.-footer--------------------------*/
 .footer {
-  border-top: solid 1px gray;
+  border-top: solid 1px $color-text;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,40 +11,79 @@
 .copy {
   height: 1.25rem;
   margin: 0rem 0rem 1.25rem;
-  color: grey;
-  text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: grey;
   font-size: 0.875rem;
+  color: #b8b8b9;
+  text-align: center;
+  font-family: $font-text;
 }
 .footer-list {
-  text-align: center;
-  font-family: "Open Sans-semibold", sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  width: 100%;
-  height: 60px;
-  color: grey;
-  margin-top: 0px 0px 1.25rem;
-  line-height: 1.43;
   display: flex;
   flex-direction: column;
+  align-items: center;
   list-style: none;
+  text-transform: uppercase;
+  font-family: "Open Sans-semibold", sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  width: 100%;
 }
 .footlogo {
   width: 115.9px;
   height: 45px;
-  margin: 30px 28.1px 0 28px;
+  margin: 2.8rem 6.38rem 0rem 6.38rem;
 }
-
 .footer-link:link,
 .footer-link:visited,
 .footer-link:active {
   text-decoration: none;
-  color: #54585a;
+  color: $color-text;
 }
-
 .footer-link:hover {
-  color: #099d8d;
+  color: $color-highlight;
+}
+@media (min-width: 768px) {
+  .footer {
+    flex-wrap: initial;
+    align-items: flex-start;
+    height: 10.63rem;
+    width: 100%;
+  }
+  .copy {
+    margin: 0.38rem 11.38rem 0.94rem 0;
+  }
+  .footlogo {
+    position: absolute;
+    transform: translate(-110px, 0px);
+  }
+  .footer-list {
+    width: 20.25rem;
+    height: 5.625rem;
+    align-items: flex-end;
+    line-height: 2em;
+    margin-left: 26rem;
+    margin-top: 0rem;
+  }
+}
+@media (min-width: 1200px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10.06rem;
+    width: 100%;
+  }
+  .copy {
+    width: 10.75rem;
+    margin-left: 5.6rem;
+  }
+  .footer-list {
+    align-items: flex-end;
+    line-height: 3em;
+    width: 20.25rem;
+    height: 5.62rem;
+    margin-right: 1.88rem;
+  }
+  .footlogo {
+    margin-left: 13.1rem;
+  }
 }
