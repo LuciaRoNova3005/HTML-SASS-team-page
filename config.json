@@ -34,6 +34,11 @@
     "dest": "public/assets/images/",
     "dist": "docs/assets/images/"
   },
+  "webfonts": {
+    "src": "src/webfonts/**",
+    "dest": "public/assets/webfonts/",
+    "dist": "docs/assets/webfonts/"
+  },
   "watch": {
     "html": "src/**/*.html"
   }

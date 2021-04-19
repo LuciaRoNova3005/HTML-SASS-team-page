@@ -78,6 +78,13 @@ gulp.task('images', done => {
   done();
 });
 
+gulp.task('webfonts', done => {
+  gulp
+    .src(config.webfonts.src)
+    .pipe(gulp.dest(config.webfonts.dest));
+  done();
+});
+
 gulp.task('js', done => {
   gulp
     .src(config.js.src)
@@ -108,11 +115,18 @@ gulp.task('images-dist', done => {
   done();
 });
 
+gulp.task('webfonts-dist', done => {
+  gulp
+    .src(config.webfonts.src)
+    .pipe(gulp.dest(config.webfonts.dist));
+  done();
+});
+
 // main tasks
 
 gulp.task(
   'default',
-  gulp.series(['clean', 'api', 'html', 'css', 'js', 'images'], done => {
+  gulp.series(['clean', 'api', 'html', 'css', 'js', 'images', 'webfonts'], done => {
     browserSync.init({ server: { baseDir: './public/' } });
     gulp.watch(config.api.src, gulp.series(['api', 'bs-reload']));
     gulp.watch(config.css.src, gulp.series('css'));
@@ -132,7 +146,8 @@ gulp.task(
       'css-dist',
       'html-dist',
       'js-dist',
-      'images-dist'
+      'images-dist',
+      'webfonts-dist'
       // 'icons-dist'
     ],
     done => done()
