@@ -98,3 +98,71 @@
   text-align: center;
   color: #54585a;
 }
+
+@media (min-width: 768px) {
+  .jawa-container {
+    margin: 0 2.8125rem;
+  }
+
+  .team {
+    scroll-margin-top: 3.75rem;
+  }
+
+  .dafo-container {
+    margin: 0 2.8125rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .strengths {
+    width: 50%;
+    padding-top: 2.8125rem;
+    padding-bottom: 3.75rem;
+    margin-right: 1.875rem;
+  }
+  .weaknesses {
+    width: 50%;
+    padding-top: 2.8125rem;
+    padding-bottom: 2.8125rem;
+  }
+  .triangle {
+    position: relative;
+    left: 50%;
+  }
+  .p2 {
+    padding-top: 0.9375rem;
+  }
+  .p3 {
+    padding-top: 0.9375rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jawa-container {
+    margin: 0 8.625rem;
+  }
+
+  /*--3----------------------------*/
+
+  .description {
+    width: 50%;
+    margin: auto;
+    padding-top: 2.8125rem;
+    padding-bottom: 3.75rem;
+  }
+
+  .dafo-container {
+    margin: 0 8.625rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .strengths {
+    width: 50%;
+    margin-right: 2.8125rem;
+  }
+  .weaknesses {
+    width: 50%;
+    padding-bottom: 3.75rem;
+  }
+}
