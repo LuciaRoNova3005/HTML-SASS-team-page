@@ -1,19 +1,9 @@
-/*--4.-quienes-somos-----------------------------*/
-
 .adalabers {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  list-style: none;
+  scroll-margin-top: 6.5625rem;
 }
 .title-adalabers {
   width: 100%;
-  margin-top: 1.875rem;
-  margin-bottom: 0.625rem;
+  margin: 1.875rem auto 1.875rem auto;
   font-family: $font-title;
   font-size: 1.5rem;
   text-align: center;
@@ -41,39 +31,108 @@
   object-fit: cover;
   border: 0.313rem solid lightgray;
   border-radius: 0.625rem;
+  box-sizing: border-box;
 }
 .nameL,
 .nameR {
   font-family: $font-text;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: black;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 0.938rem;
 }
 .bioL,
 .bioR {
   font-family: $font-text;
-  font-size: 16px;
+  font-size: 1rem;
   color: $color-text;
   text-align: center;
-  margin: 15px;
-  line-height: 24px;
+  margin: 0.938rem;
+  padding: 0.938rem auto 0.938rem auto;
+  line-height: 1.5rem;
 }
-/*estilo de los logos de redes*/
-i {
-  font-size: 16px;
-  color: $color-highlight;
-  font-family: $font-title;
-  text-align: center;
-}
+
 .rrssL,
 .rrssR {
-  width: 124px;
+  width: 7.75rem;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   text-align: center;
   justify-content: space-between;
   color: $color-highlight;
-  margin: auto;
+  margin: 0 auto 40px auto;
+  list-style: none;
+}
+.icon {
+  font-size: 1rem;
+  color: $color-highlight;
+  font-family: $font-title;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .adalabers {
+    scroll-margin-top: 3.75rem;
+  }
+  .whoweare {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .titlewhoweare {
+    width: 100%;
+    margin-top: 2.813rem;
+    margin-bottom: 2.5rem;
+  }
+  .container-WhoweareL {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container-WhoweareR {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .pic {
+    min-width: 207px;
+    min-height: 207px;
+    margin: initial;
+  }
+
+  .namebiorrss {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nameL {
+    margin-left: 29px;
+    text-align: left;
+    line-height: 2.813rem;
+  }
+  .nameR {
+    margin-right: 29px;
+    text-align: right;
+    line-height: 2.813rem;
+  }
+  .bioL {
+    margin-left: 29px;
+    text-align: left;
+    width: 500px;
+  }
+  .bioR {
+    margin-right: 29px;
+    text-align: right;
+    width: 500px;
+  }
+  .rrssL {
+    text-align: left;
+    margin-left: 29px;
+  }
+  .rrssR {
+    text-align: right;
+    margin-right: 29px;
+  }
 }

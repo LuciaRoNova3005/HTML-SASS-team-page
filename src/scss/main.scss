@@ -85,66 +85,6 @@
     padding-top: 0.9375rem;
   }
 
-  /*--4----------------------------*/
-  .whoweare {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .titlewhoweare {
-    width: 100%;
-    margin-top: 2.813rem;
-    margin-bottom: 2.5rem;
-  }
-  .container-WhoweareL {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .container-WhoweareR {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-  }
-  .pic {
-    min-width: 207px;
-    min-height: 207px;
-    margin: initial;
-  }
-
-  .namebiorrss {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .nameL {
-    margin-left: 29px;
-    text-align: left;
-    line-height: 2.813rem;
-  }
-  .nameR {
-    margin-right: 29px;
-    text-align: right;
-    line-height: 2.813rem;
-  }
-  .bioL {
-    margin-left: 29px;
-    text-align: left;
-    width: 440px;
-  }
-  .bioR {
-    margin-right: 29px;
-    text-align: right;
-    width: 440px;
-  }
-  .rrssL {
-    text-align: left;
-    margin-left: 29px;
-  }
-  .rrssR {
-    text-align: right;
-    margin-right: 29px;
-  }
   /*--------------------------------*/
   .footer {
     display: flex;
