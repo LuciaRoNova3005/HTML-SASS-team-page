@@ -1,5 +1,15 @@
 .adalabers {
   scroll-margin-top: 6.5625rem;
+  @media (min-width: 768px) {
+    scroll-margin-top: 3.75rem;
+  }
+}
+.whoweare {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .title-adalabers {
   width: 100%;
@@ -9,20 +19,46 @@
   text-align: center;
   color: $color-highlight;
   text-transform: uppercase;
+  @media (min-width: 768px) {
+    margin-top: 2.813rem;
+    margin-bottom: 2.5rem;
+  }
 }
-.container-WhoweareL,
-.container-WhoweareR {
+.container-adalabersL {
   width: 100%;
   justify-content: space-between;
   align-items: center;
   margin-top: 1.563rem;
   margin-bottom: 1.25rem;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
+.container-adalabersR {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  @media (min-width: 768px) {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.563rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
 .pic {
   width: 11.25rem;
   height: 11.25rem;
   justify-content: center;
   margin: auto;
+  @media (min-width: 768px) {
+    min-width: 207px;
+    min-height: 207px;
+    margin: initial;
+  }
 }
 .imagebio {
   width: 100%;
@@ -33,13 +69,36 @@
   border-radius: 0.625rem;
   box-sizing: border-box;
 }
-.nameL,
+.namebiorrss {
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.nameL {
+  font-family: $font-text;
+  font-size: 1.25rem;
+  color: black;
+  text-align: center;
+  margin-top: 0.938rem;
+  @media (min-width: 768px) {
+    margin-left: 29px;
+    text-align: left;
+    line-height: 2.813rem;
+  }
+}
 .nameR {
   font-family: $font-text;
   font-size: 1.25rem;
   color: black;
   text-align: center;
   margin-top: 0.938rem;
+  @media (min-width: 768px) {
+    margin-right: 29px;
+    text-align: right;
+    line-height: 2.813rem;
+  }
 }
 .bioL,
 .bioR {
@@ -72,51 +131,6 @@
 }
 
 @media (min-width: 768px) {
-  .adalabers {
-    scroll-margin-top: 3.75rem;
-  }
-  .whoweare {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  .titlewhoweare {
-    width: 100%;
-    margin-top: 2.813rem;
-    margin-bottom: 2.5rem;
-  }
-  .container-WhoweareL {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .container-WhoweareR {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-  }
-  .pic {
-    min-width: 207px;
-    min-height: 207px;
-    margin: initial;
-  }
-
-  .namebiorrss {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .nameL {
-    margin-left: 29px;
-    text-align: left;
-    line-height: 2.813rem;
-  }
-  .nameR {
-    margin-right: 29px;
-    text-align: right;
-    line-height: 2.813rem;
-  }
   .bioL {
     margin-left: 29px;
     text-align: left;
@@ -134,5 +148,21 @@
   .rrssR {
     text-align: right;
     margin-right: 29px;
+  }
+}
+@media (min-width: 1200px) {
+  .pic {
+    min-width: 278px;
+    min-height: 278px;
+    margin: initial;
+  }
+  .titlewhoweare {
+    width: 100%;
+    margin-top: 2.813rem;
+    margin-bottom: 2.5rem;
+  }
+  .container-adalabersL,
+  .container-adalabersR {
+    align-items: flex-start;
   }
 }
