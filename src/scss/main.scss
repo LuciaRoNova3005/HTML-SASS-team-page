@@ -1,4 +1,5 @@
 @import "core/reset";
+@import "core/variables";
 @import "components/fontawesome";
 
 /*----1------ estilo header*/
@@ -283,57 +284,6 @@ i {
   box-sizing: border-box;
 }
 
-/*--5.-footer--------------------------*/
-.footer {
-  border-top: solid 1px gray;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 15.63rem;
-  width: 100%;
-  padding: 1.875rem;
-}
-.copy {
-  height: 1.25rem;
-  margin: 0rem 0rem 1.25rem;
-  color: grey;
-  text-align: center;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  color: grey;
-  font-size: 0.875rem;
-}
-.footer-list {
-  text-align: center;
-  font-family: "Open Sans-semibold", sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  width: 100%;
-  height: 60px;
-  color: grey;
-  margin-top: 0px 0px 1.25rem;
-  line-height: 1.43;
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-}
-.footlogo {
-  width: 115.9px;
-  height: 45px;
-  margin: 30px 28.1px 0 28px;
-}
-
-.footer-link:link,
-.footer-link:visited,
-.footer-link:active {
-  text-decoration: none;
-  color: #54585a;
-}
-
-.footer-link:hover {
-  color: #099d8d;
-}
-
 /*--------RESPONSIVE-------------------------------*/
 
 @media (min-width: 768px) {
@@ -605,31 +555,31 @@ i {
 }
 
 /*-----------FORMULARIO---------------------*/
-.form{
+.form {
   font-family: "Open Sans";
   color: #54585a;
 }
-.label{
+.label {
   display: block;
   margin: 7px 0 13px 0;
 }
-.input{
+.input {
   display: block;
   height: 45px;
   width: 100%;
   border: solid 1px #b8b8b9;
 }
-.asterisk{
+.asterisk {
   color: #14d9c4;
 }
 
-.message{
+.message {
   width: 100%;
   font-family: "Open Sans";
   color: #54585a;
 }
 
-.button{
+.button {
   margin-top: 30px;
   margin-bottom: 60px;
   height: 45px;
