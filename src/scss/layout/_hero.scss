@@ -24,3 +24,12 @@
   font-size: 1.125rem;
   line-height: 1.563rem;
 }
+@media (min-width: 768px) {
+  .lema {
+    opacity: 0.8;
+    width: 441px;
+    padding: 0.9375rem, 1.875rem, 10.9375rem, 1.875rem;
+    margin: 366px 0px 0 0px;
+    text-align: justify;
+  }
+}
