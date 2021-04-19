@@ -1,14 +1,13 @@
 /*----2-Hero-------------------------------*/
 .hero {
-  box-sizing: border-box;
-  height: 450px;
+  height: 28.13rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .imagen-hero {
-  height: 421px;
+  height: 26.31rem;
   background: url(../images/isla-java.jpg);
   background-size: cover;
   width: 100%;
@@ -16,13 +15,12 @@
 }
 
 .lema {
-  box-sizing: border-box;
   background-color: #ffffff;
-  padding: 15px;
+  padding: 0.9375rem;
   text-align: center;
-  margin: 387px 0px 0 0px;
+  margin: 24.19rem 0 0 0;
   font-family: "Open Sans";
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 1.563rem;
 }
