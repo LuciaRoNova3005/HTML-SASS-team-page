@@ -11,9 +11,23 @@
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Otra página del starter kit</h1>
+      <header class="headcontainer">
+        <h1 class="cabecera">Jawa</h1>
+        <nav class="navegador">
+          <ul class="nav-list">
+            <li class="navlinks">
+              <a class="header-link" href="#team">Equipo</a>
+            </li>
+            <li class="navlinks">
+              <a class="header-link" href="#whoweare">Quienes somos</a>
+            </li>
+            <li class="navlinks">
+              <a class="header-link" href="../contacto.html" target="_self"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </nav>
       </header>
 
       <main>
@@ -23,12 +37,28 @@
           que te ha traído hasta aquí.
         </p>
       </main>
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <footer class="footer">
+        <span class="copy">Jawa &copy; 2021</span>
 
-        </small>
+        <nav class="foot-container">
+          <ul class="footer-list">
+            <li class="team-link">
+              <a class="footer-link" href="#team">Equipo</a>
+            </li>
+            <li class="whoweare-link">
+              <a class="footer-link" href="#whoweare">Quienes somos</a>
+            </li>
+            <li class="contact-link">
+              <a class="footer-link" href="../contacto.html" target="_blank">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <img
+          class="footlogo"
+          src="./assets/images/logo-adalab.png"
+          alt="Logo Adalab"
+        />
       </footer>
 
     </div>

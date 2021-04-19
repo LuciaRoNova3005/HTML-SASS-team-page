@@ -2,67 +2,408 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto</title>
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="shortcut icon" href="./assets/images/favicon.png" />
   </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
-
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
+  <body class="body">
+    <header class="headcontainer">
+      <h1 class="cabecera">Jawa</h1>
+      <nav class="navegador">
+        <ul class="nav-list">
+          <li class="navlinks">
+            <a class="header-link" href="#team">Equipo</a>
           </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
+          <li class="navlinks">
+            <a class="header-link" href="#whoweare">Quienes somos</a>
+          </li>
+          <li class="navlinks">
+            <a class="header-link" href="../contacto.html" target="_self"
+              >Contacto</a
+            >
           </li>
         </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </nav>
+    </header>
 
+    <main>
+      <hero class="hero">
+        <div class="imagen-hero">
+          <div class="jawa-container">
+            <div class="lema">
+              <h3>360 puntos de vista</h3>
+            </div>
+          </div>
+        </div>
+      </hero>
+
+      <!-------------PARTE DE PATRICIA--------------------------->
+
+      <section class="team" id="team">
+          <div class="jawa-container">
+            <article class="description">
+              <h2 class="title-team">EQUIPO</h2>
+              <p class="p1">
+                Al igual que en la idílica isla de Indonesia la biodiversidad de
+                nuestro equipo y sus enfoques es uno de nuestras fortalezas.
+                Garantiza el equilibrio y un funcionamiento dinámico y en
+                evolución constante.... <br />
+                Somos un joven equipo de futuras desarrolladoras front-end,
+                perseverantes y llenas de energía, lo damos todo para aprender.
+                Probamos, fallamos, volvemos a probar y al final, lo logramos.
+                <br />
+                De nuestras diferencias conseguimos obtener diferentes puntos de
+                vista para abordar los retos que se nos pongan por delante.
+              </p>
+            </article>
+          </div>
+
+          <div class="dafo">
+            <div class="dafo-container">
+              <div class="triangle"></div>
+              <article class="strengths">
+                <h3 class="dafo-title-1">Fortalezas</h3>
+                <p class="p2">
+                  La integridad es clave para nosotras, nos relacionamos desde la
+                  honestidad y la transparencia. <br />
+                  Empatizando vemos las cosas desde múltiples persepectivas.
+                  <br />
+                  El compañerismo es importante... ¡nadie se queda atrás! <br />
+                  Motivación y perseverancia van de la mano para conseguir
+                  nuestros objetivos. <br />
+                  ¡Probando y fallando hasta lograrlo! <br />
+                </p>
+              </article>
+              <article class="weaknesses">
+                <h3 class="dafo-title-2">Debilidades</h3>
+                <p class="p3">
+                  Falta de experiencia que supone un verdadero reto diario, aunque
+                  no lo vemos como algo negativo y lo suplimos con las ganas de
+                  aprender todo lo posible. <br />
+                  Perfeccionismo, intentamos dar lo mejor de nosotras en cada
+                  proyecto y queremos que los resultados sean perfectos
+                  pero...¿quién no? ;)
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+        <!--------------------------------------------------------->
+
+      <section class="whoweare" id="whoweare">
+        <div class="jawa-container">
+          <div class="titlewhoweare">
+            <h2>Quiénes somos</h2>
+          </div>
+          <!-----Bárbara-->
+          <article class="container-WhoweareL">
+            <div class="pic">
+              <img
+                class="imagebio"
+                src="./assets/images/Foto_Barbara_Estevez.jpg"
+                alt="Foto Bárbara Estévez Simonet"
+              />
+            </div>
+            <div class="namebiorrss">
+              <div class="nameL">
+                <h3>Bárbara Estévez Simonet</h3>
+              </div>
+              <div class="bioL">
+                Quiero llenar mi vida de mediaqueries que ayuden a adaptarme ante los
+                breakpoints que surjan en el camino para ser una Desarrolladora
+                Front-end. Me encanta trabajar en equipo donde todos aporten
+                diferentes puntos de vista y nadie tiene una posición absoluta.
+                Flexbox all the things!
+              </div>
+              <div class="rrssL">
+                <div>
+                  <a
+                    href="https://twitter.com/barbaraestevez"
+                    title="Perfil Twitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/barbara-estevez-simonet/"
+                    title="Perfil Linkedin"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/barbaraestevez"
+                    title="Perfil Github"
+                    target="_blank"
+                    ><i class="fab fa-github-alt"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="mailto:barbara.estevez@gmail.com"
+                    title="Contacto @"
+                    target="_blank"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!----LAURA------------->
+          <article class="container-WhoweareR">
+            <div class="pic">
+              <img
+                class="imagebio"
+                src="./assets/images/Laura.png"
+                alt="Foto Laura Graizer Busca"
+              />
+            </div>
+            <div class="namebiorrss">
+              <div class="nameR">
+                <h3>Laura Graizer Busca</h3>
+              </div>
+              <div class="bioR">
+                Desarrolladora Front-end en proceso, con un trayectoria profesional
+                basada en el ámbito de la educación y el emprendimiento. Disfruto
+                trabajando en equipo y sintiendo que mi cerebro permanece en modo
+                esponja ;)
+              </div>
+              <div class="rrssR">
+                <div>
+                  <a
+                    href="https://twitter.com/?lang=es"
+                    title="Perfil Twitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/laura-graizer-73236743/"
+                    title="Perfil Linkedin"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/parnasos"
+                    title="Perfil Github"
+                    target="_blank"
+                    ><i class="fab fa-github-alt"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="mailto:lauragraizer@gmail.com"
+                    title="Contacto @"
+                    target="_blank"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!-------LUCÍA--------->
+          <article class="container-WhoweareL">
+            <div class="pic">
+              <img
+                class="imagebio"
+                src="./assets/images/foto-lucia.jpg"
+                alt="Foto Lucía Rodríguez Nova"
+              />
+            </div>
+            <div class="namebiorrss">
+              <div class="nameL">
+                <h3>Lucía Rodríguez Nova</h3>
+              </div>
+              <div class="bioL">
+                No more dramas more breakpoint. Cinéfila de la A la serie Z.
+              </div>
+              <div class="rrssL">
+                <div>
+                  <a
+                    href="https://twitter.com/?lang=es"
+                    title="Perfil Twitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/luciarodrigueznova/"
+                    title="Perfil Linkedin"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/LuciaRoNova3005/ejercicios-adalab"
+                    title="Perfil Github"
+                    target="_blank"
+                    ><i class="fab fa-github-alt"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="mailto:lucia.r.nova2@gmail.com"
+                    title="Contacto @"
+                    target="_blank"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!------PATI-->
+          <article class="container-WhoweareR">
+            <div class="pic">
+              <img
+                class="imagebio"
+                src="./assets/images/Foto_Pati.png"
+                alt="Foto Patricia Vaquero Sáenz"
+              />
+            </div>
+            <div class="namebiorrss">
+              <div class="nameR">
+                <h3>Patricia Vaquero Sáenz</h3>
+              </div>
+              <div class="bioR">
+                Riojana de nacimiento y de corazón y en los últimos años maña de
+                adopción, apasionada de las nuevas tecnologías. Me encanta aprender
+                algo nuevo cada día. Etiquetas, etiquetas everywhere!!
+              </div>
+              <div class="rrssR">
+                <div>
+                  <a
+                    href="https://twitter.com/?lang=es"
+                    title="Perfil Twitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/"
+                    title="Perfil Linkedin"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/PatriciaVaqueroSaenz"
+                    title="Perfil Github"
+                    target="_blank"
+                    ><i class="fab fa-github-alt"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="mailto:vaquerosaenzpatricia@gmail.com"
+                    title="Contacto @"
+                    target="_blank"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <!--------PAULA------->
+          <article class="container-WhoweareL">
+            <div class="pic">
+              <img
+                class="imagebio"
+                src="./assets/images/Paula.png"
+                alt="Foto Paula Albo Vázquez-Noguerol"
+              />
+            </div>
+            <div class="namebiorrss">
+              <div class="nameL">
+                <h3>Paula Albo Vázquez-Noguerol</h3>
+              </div>
+              <div class="bioL">
+                Publicista, viajera y gallega. después de trabajar por el mundo en
+                medios de comunicación, me he instalado en Madrid para centrarme en
+                ser madre y programadora.
+              </div>
+              <div class="rrssL">
+                <div>
+                  <a
+                    href="https://twitter.com/?lang=es"
+                    title="Perfil Twitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="linkedin.com/in/paula-albo-vázquez-noguerol-b9699597"
+                    title="Perfil Linkedin"
+                    target="_blank"
+                    ><i class="fab fa-linkedin-in"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="https://github.com/paulaavn"
+                    title="Perfil Github"
+                    target="_blank"
+                    ><i class="fab fa-github-alt"> · </i></a
+                  >
+                </div>
+                <div>
+                  <a
+                    href="mailto:paulaalbovn@gmail.com"
+                    title="Contacto @"
+                    target="_blank"
+                    ><i class="fas fa-envelope"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer">
+      <span class="copy">Jawa &copy; 2021</span>
+
+      <nav class="foot-container">
+        <ul class="footer-list">
+          <li class="team-link">
+            <a class="footer-link" href="#team">Equipo</a>
           </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-
+          <li class="whoweare-link">
+            <a class="footer-link" href="#whoweare">Quienes somos</a>
+          </li>
+          <li class="contact-link">
+            <a class="footer-link" href="../contacto.html" target="_blank">Contacto</a>
           </li>
         </ul>
-      </main>
+      </nav>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      <img
+        class="footlogo"
+        src="./assets/images/logo-adalab.png"
+        alt="Logo Adalab"
+      />
+    </footer>
 
-        </small>
-      </footer>
-
-    </div>
-    <script src="./assets/js/main.js"></script>
   </body>
 </html>
