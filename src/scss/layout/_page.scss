@@ -1,6 +1,6 @@
 /*--4.-quienes-somos-----------------------------*/
 
-.whoweare {
+.adalabers {
   width: 100%;
   height: auto;
   display: flex;
@@ -8,17 +8,16 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   list-style: none;
 }
-.titlewhoweare {
+.title-adalabers {
   width: 100%;
   margin-top: 1.875rem;
   margin-bottom: 0.625rem;
-  font-family: "Rubik";
+  font-family: $font-title;
   font-size: 1.5rem;
   text-align: center;
-  color: #099d8d;
+  color: $color-highlight;
   text-transform: uppercase;
 }
 .container-WhoweareL,
@@ -26,7 +25,6 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
   margin-top: 1.563rem;
   margin-bottom: 1.25rem;
 }
@@ -35,7 +33,6 @@
   height: 11.25rem;
   justify-content: center;
   margin: auto;
-  box-sizing: border-box;
 }
 .imagebio {
   width: 100%;
@@ -47,7 +44,7 @@
 }
 .nameL,
 .nameR {
-  font-family: "Open sans";
+  font-family: $font-text;
   font-size: 20px;
   color: black;
   text-align: center;
@@ -55,9 +52,9 @@
 }
 .bioL,
 .bioR {
-  font-family: "Open sans";
+  font-family: $font-text;
   font-size: 16px;
-  color: #54585a;
+  color: $color-text;
   text-align: center;
   margin: 15px;
   line-height: 24px;
@@ -65,8 +62,8 @@
 /*estilo de los logos de redes*/
 i {
   font-size: 16px;
-  color: #099d8d;
-  font-family: "Rubik";
+  color: $color-highlight;
+  font-family: $font-title;
   text-align: center;
 }
 .rrssL,
@@ -77,7 +74,6 @@ i {
   flex-wrap: nowrap;
   text-align: center;
   justify-content: space-between;
-  color: #099d8d;
+  color: $color-highlight;
   margin: auto;
-  box-sizing: border-box;
 }
