@@ -10,38 +10,10 @@
 
 /*--------RESPONSIVE-------------------------------*/
 
+/*--2----------------------------*/
+
+/*--3----------------------------*/
 @media (min-width: 768px) {
-  /*--1----------------------------*/
-  .headcontainer {
-    height: 60px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .cabecera {
-    width: 100%;
-    justify-content: flex-start;
-    padding: 0 45px;
-  }
-  .navegador {
-    width: 100%;
-    height: 60px;
-    justify-content: flex-end;
-    background-color: inherit;
-    padding: 0 45px;
-  }
-  /*.nav-list {
-       margin-right: 0.75rem; 
-    }*/
-  /*.navlinks {
-       padding-left: 1rem; 
-    }*/
-
-  /*--2----------------------------*/
-
-  /*--3----------------------------*/
-
   .jawa-container {
     margin: 0 2.8125rem;
   }
@@ -77,39 +49,13 @@
   .p3 {
     padding-top: 0.9375rem;
   }
-
-  /*--------------------------------*/
 }
 
 @media (min-width: 1200px) {
-  /*--1----------------------------*/
-
   .jawa-container {
     margin: 0 8.625rem;
   }
-  .headcontainer {
-    height: 60px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .cabecera {
-    width: 100%;
-    justify-content: flex-start;
-    padding: 0 138px;
-  }
-  .navegador {
-    width: 100%;
-    height: 60px;
-    justify-content: flex-end;
-    background-color: inherit;
-    padding: 0 138px;
-  }
-  .navlinks {
-    margin-left: 24px;
-  }
-  /
+
   /*--3----------------------------*/
 
   .description {
