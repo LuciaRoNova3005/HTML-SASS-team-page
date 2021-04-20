@@ -128,13 +128,13 @@
   color: $color-highlight;
   font-family: $font-title;
   text-align: center;
+  position: relative;
 }
-.icon::after {
+.dot::after {
   content: ".";
   color: $color-highlight;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  transform: translate(200%, -40%);
 }
 
 @media (min-width: 768px) {
