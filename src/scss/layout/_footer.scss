@@ -44,11 +44,14 @@
 }
 @media (min-width: 768px) {
   .footer {
-    flex-wrap: initial;
-    align-items: flex-start;
     height: 10.63rem;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
   }
+
   .copy {
     margin: 0.38rem 11.38rem 0.94rem 0;
   }
@@ -61,8 +64,6 @@
     height: 5.625rem;
     align-items: flex-end;
     line-height: 2em;
-    margin-left: 26rem;
-    margin-top: 0rem;
   }
 }
 @media (min-width: 1200px) {
