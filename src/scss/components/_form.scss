@@ -38,6 +38,11 @@
   text-align: center;
   color: #54585a;
 }
+
+.form__description.item2{
+  padding-top: 30px;
+}
+
 .form {
   font-family: "Open Sans";
   color: #54585a;
@@ -75,5 +80,9 @@
   @media (min-width: 768px) {
     width: 50%;
     transform: translate(100%,0);
+    margin-bottom: 0px;
+  }
+  @media (min-width: 1200px) {
+    margin-bottom: 30px;
   }
 }
