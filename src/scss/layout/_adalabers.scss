@@ -1,5 +1,6 @@
 .adalabers {
   scroll-margin-top: 6.5625rem;
+
   @media (min-width: 768px) {
     scroll-margin-top: 3.75rem;
   }
@@ -19,7 +20,13 @@
   text-align: center;
   color: $color-highlight;
   text-transform: uppercase;
+
   @media (min-width: 768px) {
+    margin-top: 2.813rem;
+    margin-bottom: 2.5rem;
+  }
+  @media (min-width: 1200px) {
+    width: 100%;
     margin-top: 2.813rem;
     margin-bottom: 2.5rem;
   }
@@ -30,22 +37,30 @@
   align-items: center;
   margin-top: 1.563rem;
   margin-bottom: 1.25rem;
+
   @media (min-width: 768px) {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
+  @media (min-width: 1200px) {
+    align-items: flex-start;
+  }
 }
 .container-adalabersR {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.563rem;
+  margin-bottom: 1.25rem;
+
   @media (min-width: 768px) {
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 1.563rem;
-    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  @media (min-width: 1200px) {
+    align-items: flex-start;
   }
 }
 
@@ -54,9 +69,15 @@
   height: 11.25rem;
   justify-content: center;
   margin: auto;
+
   @media (min-width: 768px) {
     min-width: 207px;
     min-height: 207px;
+    margin: initial;
+  }
+  @media (min-width: 1200px) {
+    min-width: 278px;
+    min-height: 278px;
     margin: initial;
   }
 }
@@ -82,6 +103,7 @@
   color: black;
   text-align: center;
   margin-top: 0.938rem;
+
   @media (min-width: 768px) {
     margin-left: 29px;
     text-align: left;
@@ -94,13 +116,28 @@
   color: black;
   text-align: center;
   margin-top: 0.938rem;
+
   @media (min-width: 768px) {
     margin-right: 29px;
     text-align: right;
     line-height: 2.813rem;
   }
 }
-.bioL,
+.bioL {
+  font-family: $font-text;
+  font-size: 1rem;
+  color: $color-text;
+  text-align: center;
+  margin: 0.938rem;
+  padding: 0.938rem auto 0.938rem auto;
+  line-height: 1.5rem;
+
+  @media (min-width: 768px) {
+    margin-left: 29px;
+    text-align: left;
+    width: 500px;
+  }
+}
 .bioR {
   font-family: $font-text;
   font-size: 1rem;
@@ -109,9 +146,30 @@
   margin: 0.938rem;
   padding: 0.938rem auto 0.938rem auto;
   line-height: 1.5rem;
+
+  @media (min-width: 768px) {
+    margin-right: 29px;
+    text-align: right;
+    width: 500px;
+  }
 }
 
-.rrssL,
+.rrssL {
+  width: 7.75rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+  justify-content: space-between;
+  color: $color-highlight;
+  margin: 0 auto 40px auto;
+  list-style: none;
+
+  @media (min-width: 768px) {
+    text-align: left;
+    margin-left: 29px;
+  }
+}
 .rrssR {
   width: 7.75rem;
   display: flex;
@@ -122,6 +180,11 @@
   color: $color-highlight;
   margin: 0 auto 40px auto;
   list-style: none;
+
+  @media (min-width: 768px) {
+    text-align: right;
+    margin-right: 29px;
+  }
 }
 .icon {
   font-size: 1rem;
@@ -135,41 +198,4 @@
   color: $color-highlight;
   position: absolute;
   transform: translate(200%, -40%);
-}
-
-@media (min-width: 768px) {
-  .bioL {
-    margin-left: 29px;
-    text-align: left;
-    width: 500px;
-  }
-  .bioR {
-    margin-right: 29px;
-    text-align: right;
-    width: 500px;
-  }
-  .rrssL {
-    text-align: left;
-    margin-left: 29px;
-  }
-  .rrssR {
-    text-align: right;
-    margin-right: 29px;
-  }
-}
-@media (min-width: 1200px) {
-  .pic {
-    min-width: 278px;
-    min-height: 278px;
-    margin: initial;
-  }
-  .titlewhoweare {
-    width: 100%;
-    margin-top: 2.813rem;
-    margin-bottom: 2.5rem;
-  }
-  .container-adalabersL,
-  .container-adalabersR {
-    align-items: flex-start;
-  }
 }
