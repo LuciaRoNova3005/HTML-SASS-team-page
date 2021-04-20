@@ -86,3 +86,16 @@
     margin-bottom: 30px;
   }
 }
+
+.form-flex{
+  @media (min-width: 1200px) {
+  display: flex;
+  justify-content: space-between;
+  }
+}
+.form-flex__item--1{
+  @media (min-width: 1200px) {
+  min-width: 65%;
+  margin-right: 45px;
+  }
+}
