@@ -129,6 +129,13 @@
   font-family: $font-title;
   text-align: center;
 }
+.icon::after {
+  content: ".";
+  color: $color-highlight;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
 
 @media (min-width: 768px) {
   .bioL {
