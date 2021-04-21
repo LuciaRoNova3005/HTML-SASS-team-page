@@ -2,6 +2,7 @@
   height: auto;
   background-color: $colorwhite;
   padding: 1.875rem 0;
+  box-sizing: border-box;
 
   @media (min-width: 768px) {
     width: 50%;
@@ -56,25 +57,32 @@
 .form {
   font-family: $font-text;
   color: $color-text;
+  box-sizing: border-box;
 }
 .label {
   display: block;
   margin: 0.4375rem 0 0.8125rem;
 }
 .input {
+  font-family: $font-text;
   display: block;
   height: 2.8125rem;
   width: 100%;
   border: solid 1px #b8b8b9;
+  box-sizing: border-box;
+  padding-left: 0.9375rem;
 }
 .asterisk {
   color: $colorlightaqua;
 }
 
 .message {
+  box-sizing: border-box;
   width: 100%;
   font-family: $font-text;
   color: $color-text;
+  padding-top: 0.6875rem;
+  padding-left: 0.9375rem;
 }
 
 .button {
@@ -83,10 +91,13 @@
   height: 2.8125rem;
   width: 100%;
   color: $colorwhite;
+  font-family: $font-text;
+  font-weight: 800;
   background-color: $color-highlight;
   text-transform: uppercase;
   border-radius: 0.25rem;
   border: none;
+  
   @media (min-width: 768px) {
     width: 50%;
     transform: translate(100%,0);
