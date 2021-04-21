@@ -19,9 +19,9 @@
   height: 3.75rem;
   background-color: rgba(9, 157, 141, 0.95);
   text-transform: uppercase;
-  font-family: "Rubik";
+  font-family: $font-title;
   font-weight: 500;
-  color: #fff;
+  color: $colorwhite;
   line-height: 1.875rem;
   font-size: 1rem;
   display: flex;
@@ -68,7 +68,7 @@
 .navlinks {
   font-size: 0.9375rem;
   text-transform: uppercase;
-  font-family: "Rubik";
+  font-family: $font-title;
   font-weight: 500;
   line-height: 1.875rem;
   @media (min-width: 768px) {
@@ -85,12 +85,12 @@
 .header-link:visited,
 .header-link:active {
   text-decoration: none;
-  color: #fff;
+  color: $colorwhite;
 }
 .header-link:hover {
-  color: #099d8d;
+  color: $colordarkaqua;
   @media (min-width: 768px) {
-    color: #14d9c4;
+    color: $colorlightaqua;
   }
 }
 .header-link-jawa {
@@ -103,8 +103,8 @@
 .header-link-jawa:visited,
 .header-link-jawa:active {
   text-decoration: none;
-  color: #fff;
+  color: $colorwhite;
 }
 .header-link-jawa:hover {
-  color: #14d9c4;
+  color: $colorlightaqua;
 }
