@@ -5,7 +5,14 @@
   flex-direction: column;
   align-items: center;
   height: 15.63rem;
-  padding: 1.875rem;
+  padding: 2.8rem;
+  @media (min-width: 768px) {
+    height: 10.63rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }
 .copy {
   height: 1.25rem;
@@ -14,6 +21,13 @@
   color: #b8b8b9;
   text-align: center;
   font-family: $font-text;
+  @media (min-width: 768px) {
+    margin: 0.38rem 11.38rem 0.94rem 0;
+  }
+  @media (min-width: 1200px) {
+    width: 9rem;
+    margin-left: 5.6rem;
+  }
 }
 .footer-list {
   display: flex;
@@ -26,11 +40,28 @@
   font-size: 0.875rem;
   line-height: 1.43;
   width: 100%;
+  @media (min-width: 768px) {
+    width: 20.25rem;
+    height: 5.625rem;
+    align-items: flex-end;
+    line-height: 2em;
+  }
+  @media (min-width: 1200px) {
+    line-height: 3em;
+    margin-right: 8.6rem;
+  }
 }
 .footlogo {
   width: 115.9px;
   height: 45px;
   margin: 2.8rem 6.38rem 0rem 6.38rem;
+  @media (min-width: 768px) {
+    position: absolute;
+    transform: translate(-110px, 0px);
+  }
+  @media (min-width: 1200px) {
+    margin-left: 14rem;
+  }
 }
 .footer-link:link,
 .footer-link:visited,
@@ -40,49 +71,4 @@
 }
 .footer-link:hover {
   color: $color-highlight;
-}
-@media (min-width: 768px) {
-  .footer {
-    height: 10.63rem;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .copy {
-    margin: 0.38rem 11.38rem 0.94rem 0;
-  }
-  .footlogo {
-    position: absolute;
-    transform: translate(-110px, 0px);
-  }
-  .footer-list {
-    width: 20.25rem;
-    height: 5.625rem;
-    align-items: flex-end;
-    line-height: 2em;
-  }
-}
-@media (min-width: 1200px) {
-  .footer {
-    flex-direction: row;
-    justify-content: space-between;
-    height: 10.06rem;
-  }
-  .copy {
-    width: 10.75rem;
-    margin-left: 5.6rem;
-  }
-  .footer-list {
-    align-items: flex-end;
-    line-height: 3em;
-    width: 20.25rem;
-    height: 5.62rem;
-    margin-right: 1.88rem;
-  }
-  .footlogo {
-    margin-left: 14rem;
-  }
 }
