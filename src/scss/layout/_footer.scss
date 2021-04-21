@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   height: 15.63rem;
-  width: 100%;
   padding: 1.875rem;
 }
 .copy {
@@ -45,7 +44,7 @@
 @media (min-width: 768px) {
   .footer {
     height: 10.63rem;
-    width: 100%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -71,7 +70,6 @@
     flex-direction: row;
     justify-content: space-between;
     height: 10.06rem;
-    width: 100%;
   }
   .copy {
     width: 10.75rem;
