@@ -18,14 +18,16 @@
   </head>
   <body>
     <header class="headcontainer">
-      <h1 class="cabecera">Jawa</h1>
+      <h1 class="cabecera">
+        <a class="header-link-jawa" href="./index.html">Jawa</a>
+      </h1>
       <nav class="navegador">
         <ul class="nav-list">
           <li class="navlinks">
-            <a class="header-link" href="#team">Equipo</a>
+            <a class="header-link" href="./index.html#team">Equipo</a>
           </li>
           <li class="navlinks">
-            <a class="header-link" href="#whoweare">Quienes somos</a>
+            <a class="header-link" href="./index.html#whoweare">Quienes somos</a>
           </li>
           <li class="navlinks">
             <a class="header-link" href="../contacto.html" target="_self"
@@ -38,35 +40,42 @@
 
     <main>
       <hero class="hero">
-        <div class="imagen-hero"></div>
+        <div class="imagen-hero-2"></div>
       </hero>
 
       <section class="team" id="team">
           <div class="jawa-container">
-            <article class="description">
-              <h2 class="title-team">CONTACTO</h2>
-              <p class="p1">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum molestiae aut ipsa consectetur corrupti eius magnam expedita, id blanditiis animi voluptatum reiciendis atque, et a suscipit voluptatem aperiam amet culpa?
+
+            <article class="form__description">
+              <h2 class="form__title">CONTACTO</h2>
+              <p class="form__p">
+                Desde <span class="asterisk">Jawa</span> nos agrada poder proporcionarte la información que necesitas. Estaremos encantadas de recibir noticias tuyas. Para cualquier consulta o sugerencia puedes completar el siguiente formulario y nos pondremos en contacto contigo. Gracias.
               </p>
-              <p class="p1">
+              <p class="form__subp">
                   Todos los campos marcados con <span class="asterisk">*</span> son obligatorios
               </p>
               </article>
-              <article class="description">
+
+              <article class="form__description item2">
 
                 <form action="https://formspree.io/f/meqvokob" method="POST" id="form" class="form" autocomplete="off">
                   
                     <label for="name" class="label">Nombre completo <span class="asterisk">*</span></label>
                     <input type="text" id="name" name="name" placeholder="Nombre..." class="input" required>
 
-                    <label for="email" class="label">Email <span class="asterisk">*</span></label>
-                    <input type="email" id="email" name="email" value="nombre.apellidos@mail.com" class="input" required>
-
-                    <label for="telephone" class="label">Teléfono</label>
-                    <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" class="input">
+                    <div class="form-flex">
+                      <div class="form-flex__item--1">
+                        <label for="email" class="label">Email <span class="asterisk">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="nombre.apellidos@mail.com" class="input" required>
+                      </div>
+                      <div class="form-flex__item--2">
+                        <label for="telephone" class="label">Teléfono</label>
+                        <input type="tel" id="telephone" name="telephone" placeholder="Ej: 123456789" class="input">
+                      </div>
+                    </div>
 
                     <label for="message" class="label">Mensaje <span class="asterisk">*</span></label>
-                    <textarea id="message" class="message" cols="80" name="message" rows="8" placeholder="¿Qué necesitas?"></textarea>
+                    <textarea id="message" class="message" cols="80" name="message" rows="8" placeholder="¿Qué necesitas?" required maxlength="400"></textarea>
 
                     <label for="submit"></label>
                     <input type="submit" name="submit" id="submit" value="Enviar" class="button">
@@ -83,23 +92,18 @@
       <nav class="foot-container">
         <ul class="footer-list">
           <li class="team-link">
-            <a class="footer-link" href="#team">Equipo</a>
+            <a class="footer-link" href="./index.html#team">Equipo</a>
           </li>
           <li class="whoweare-link">
-            <a class="footer-link" href="#whoweare">Quienes somos</a>
+            <a class="footer-link" href="./index.html#whoweare">Quienes somos</a>
           </li>
           <li class="contact-link">
-            <a class="footer-link" href="../contacto.html" target="_blank">Contacto</a>
+            <a class="footer-link" href="../contacto.html" >Contacto</a>
           </li>
         </ul>
       </nav>
 
-      <img
-        class="footlogo"
-        src="./assets/images/logo-adalab.png"
-        alt="Logo Adalab"
-      />
+      <img class="footlogo" src="./assets/images/logo-adalab.png" alt="Logo Adalab">
     </footer>
-
   </body>
 </html>
