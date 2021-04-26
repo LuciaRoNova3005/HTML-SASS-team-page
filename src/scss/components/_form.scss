@@ -97,6 +97,12 @@
   text-transform: uppercase;
   border-radius: 0.25rem;
   border: none;
+  transition: background-color ease 0.5s, border ease 0.2s;
+
+  &:hover{
+    background-color: $colorlightaqua;
+    border:solid 2px $color-highlight;
+  }
   
   @media (min-width: 768px) {
     width: 50%;
