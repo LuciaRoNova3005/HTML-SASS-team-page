@@ -99,6 +99,20 @@
     padding: 0.9375rem 0.75rem 0.9375rem 0;
   }
 }
+.header-link-jawa {
+  animation: tutsFade 2s 1s infinite linear alternate,
+    tutsRotate 2s 1s infinite linear alternate;
+}
+@keyframes tutsFade {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes tutsRotate {
+  to {
+    transform: rotate(180deg);
+  }
+}
 .header-link-jawa:link,
 .header-link-jawa:visited,
 .header-link-jawa:active {
@@ -107,4 +121,5 @@
 }
 .header-link-jawa:hover {
   color: $colorlightaqua;
+  animation: none;
 }
