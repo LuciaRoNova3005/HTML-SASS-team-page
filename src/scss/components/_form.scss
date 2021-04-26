@@ -97,11 +97,12 @@
   text-transform: uppercase;
   border-radius: 0.25rem;
   border: none;
-  transition: background-color ease 0.5s, border ease 0.2s;
+  transition: background-color ease 0.5s, border ease 0.2s,box-shadow ease 0.6s;
 
   &:hover{
     background-color: $colorlightaqua;
     border:solid 2px $color-highlight;
+    box-shadow: 5px 2px 5px #b8b8b9;
   }
   
   @media (min-width: 768px) {
