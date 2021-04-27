@@ -68,7 +68,9 @@
 .footer-link:active {
   text-decoration: none;
   color: $color-text;
+  transition: all 0.5s ease-in-out;
 }
 .footer-link:hover {
-  color: $color-highlight;
+  text-shadow: 3px 3px 0 $colorlightaqua, -1px -1px 0 $colorlightaqua,
+    -1px -1px 0 $colorlightaqua, 1px 1px 0 $colorlightaqua;
 }
