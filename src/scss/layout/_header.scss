@@ -106,8 +106,7 @@
   }
 }
 .header-link-jawa {
-  animation: tutsFade 2s 1s infinite linear alternate,
-    tutsRotate 2s 1s infinite linear alternate;
+  animation: tutsFade 2s 1s linear alternate, tutsRotate 2s 1s linear alternate;
 }
 @keyframes tutsFade {
   to {
@@ -116,9 +115,10 @@
 }
 @keyframes tutsRotate {
   to {
-    transform: rotate(180deg);
+    transform: rotate(360deg);
   }
 }
+
 .header-link-jawa:link,
 .header-link-jawa:visited,
 .header-link-jawa:active {
