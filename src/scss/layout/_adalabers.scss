@@ -155,6 +155,11 @@
     margin: 0 auto 40px 0;
   }
 }
+.rrss-link:hover {
+  transition: all 0.5s ease-in-out;
+  text-shadow: 2px 2px 0 $color-text, -1px -1px 0 $color-text,
+    -1px -1px 0 $color-text, 1px 1px 0 $color-text;
+}
 .container-adalabers:nth-child(odd) .rrss {
   @media (min-width: 768px) {
     text-align: right;
