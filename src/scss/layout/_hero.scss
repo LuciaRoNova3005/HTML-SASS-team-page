@@ -46,10 +46,13 @@
   }
 }
 @keyframes size {
-  from {
+  0% {
     transform: scale(1);
   }
-  to {
+  50% {
     transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
   }
 }
