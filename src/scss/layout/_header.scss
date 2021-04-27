@@ -107,6 +107,7 @@
 }
 .header-link-jawa {
   animation: tutsFade 2s 1s linear alternate, tutsRotate 2s 1s linear alternate;
+  animation-duration: 5s;
 }
 @keyframes tutsFade {
   to {
@@ -127,5 +128,4 @@
 }
 .header-link-jawa:hover {
   color: $colorlightaqua;
-  animation: none;
 }
