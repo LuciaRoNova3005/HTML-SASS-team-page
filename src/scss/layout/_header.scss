@@ -80,6 +80,7 @@
   transition: all 0.5s ease-in-out;
   @media (min-width: 768px) {
     padding: 1.125rem 0 1.125rem 0.75rem;
+    transition: all 0.5s ease-in-out;
   }
 }
 .header-link:link,
@@ -93,7 +94,9 @@
   text-shadow: 3px 3px 0 $colordarkaqua, -1px -1px 0 $colordarkaqua,
     -1px -1px 0 $colordarkaqua, 1px 1px 0 $colordarkaqua;
   @media (min-width: 768px) {
-    color: $colorlightaqua;
+    color: $color-text;
+    text-shadow: 3px 3px 0 $colordarkaqua, -1px -1px 0 $colordarkaqua,
+      -1px -1px 0 $colordarkaqua, 1px 1px 0 $colordarkaqua;
   }
 }
 .header-link-jawa {
