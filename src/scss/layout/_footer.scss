@@ -1,6 +1,5 @@
-/*--5.-footer--------------------------*/
 .footer {
-  height: 250px;
+  height: 15.63rem;
   border-top: solid 1px $color-text;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -9,13 +8,13 @@
   justify-items: center;
   padding: 2.8rem;
   @media (min-width: 768px) {
-    height: 170px;
+    height: 10.63rem;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: initial;
   }
   @media (min-width: 1200px) {
-    height: 161px;
+    height: 10rem;
     justify-items: end;
   }
 }
@@ -45,7 +44,7 @@
     text-align: end;
   }
   @media (min-width: 1200px) {
-    margin-bottom: 47px;
+    margin-bottom: 2.9rem;
   }
 }
 .footer-list {
@@ -65,18 +64,18 @@
   }
 }
 .footlogo {
-  width: 115.9px;
-  height: 45px;
+  width: 7.2rem;
+  height: 2.8rem;
   grid-column: span 2;
   justify-self: center;
   @media (min-width: 768px) {
     grid-column: span 1;
     grid-row: span 2;
     justify-self: start;
-    margin-top: -80px;
+    margin-top: -5rem;
   }
   @media (min-width: 1200px) {
-    margin-left: 120px;
+    margin-left: 7.5rem;
   }
 }
 .footer-link:link,
